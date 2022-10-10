@@ -10,7 +10,8 @@
     <pubDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</pubDate>
     <author>arif</author>
     <guid>http://arifsatuan.github.io/coba-script/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[Perhatikan
+1 2 3 {{&lt; script &gt;}} console.log(&#39;Hello LoveIt!&#39;); {{&lt; /script &gt;}} ]]></description>
 </item>
 <item>
     <title>Membuat Shadow dengan Imagemagick</title>
