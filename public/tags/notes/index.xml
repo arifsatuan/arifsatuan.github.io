@@ -1,0 +1,100 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>notes - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/notes/</link>
+        <description>notes - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Format Handphone Google Forms Dan Spreadsheets</title>
+    <link>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</link>
+    <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</guid>
+    <description><![CDATA[Format nomor handphone sering kali menyulitkan karena banyak sekali format. Mulai dari perbedaan tanda +62 maupun tanda - sebagai separator. Perlu pengolahan data yang efisien. Sampai saat ini, saya sendiri belum menemukan cara yang efektif. Berikut adalah tahapan yang biasa dilakukanL
+1. Memastikan inputannya google form seragam Google Forms memiliki fitur regex dalam validasi inputan. Manfaatkan fitur ini secara maksimal dengan menambahkan regular expression ‣ matches. Google Forms Regex Pada contoh pengisi form akan dipaksa mengisi nomor handphone dengan dimulai '08 , pada bagian pattern diisi]]></description>
+</item>
+<item>
+    <title>Membuat Shadow dengan Imagemagick</title>
+    <link>http://arifsatuan.github.io/membuat-shadow-imagemagick/</link>
+    <pubDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/membuat-shadow-imagemagick/</guid>
+    <description><![CDATA[Membuat screenshoot dengan shadow di sekitarnya dapat dilakukan dengan aplikasi editing seperti photoshop. Terlalu repot jika melakukannya berulang. Padahal bisa dilakukan dengan script bash sederhana
+1. Install imagemagick Buka terminal dan install dengan
+1 sudo apt install imagemagick 2. Membuat script Buat script sederhana di lokasi /usr/share/bin Ganti vim dengan nano atau editor favorit
+1 sudo vim /usr/share/bin/shadow Lalu isikan script berikut
+1 2 3 4 5 6 7 8 9 10 11 12 #!]]></description>
+</item>
+<item>
+    <title>Catatan GitHub</title>
+    <link>http://arifsatuan.github.io/catatan-git/</link>
+    <pubDate>Sun, 09 Oct 2022 17:47:39 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/catatan-git/</guid>
+    <description><![CDATA[1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
+1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
+1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.]]></description>
+</item>
+<item>
+    <title>Cara Membuat Website Hugo</title>
+    <link>http://arifsatuan.github.io/first_post/</link>
+    <pubDate>Thu, 06 Oct 2022 09:56:48 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/first_post/</guid>
+    <description><![CDATA[Persiapan Membuat website menggunakan Hugo wajib bisa menggunakan terminal. Bisa juga pelajari dan install chocolatey. Jika chocolatey sudah terinstall, buka terminal dalam mode administrator lalu ketik berikut
+1 choco install hugo-extended atau bagi pengguna linux bisa download di github.com/gohugo/hugo lalu download release dengan nama hugo_extended_0.104.3_linux-amd64.deb. Setelah didownload, masuk ke folder tempat download lalu perintahkan
+1 sudo dpkg -i hugo_extended_0.104.3_linux-amd64.deb Pastikan bahwa hugo telah terinstall
+1 hugo version Membuat Website Pertama Misalkan website pertama kita adalah catatan, maka buat perintah]]></description>
+</item>
+<item>
+    <title>Highlight Duplicate di Google Sheets</title>
+    <link>http://arifsatuan.github.io/highlight_google_spreadsheet/</link>
+    <pubDate>Mon, 03 Oct 2022 12:58:48 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/highlight_google_spreadsheet/</guid>
+    <description><![CDATA[Penggunaan google spreadsheet semenjak pasca pandemi terus meningkat dan menjadi pengganti ms excel.
+Ada kalanya kebutuhan yang ada di ms excel tidak dapat dijawab secara langsung di google spreadsheet, perlu pengaturan khusus. Salah satu yang saya temukan adalah ketiadaan highlight duplicate cell.
+Langkah Langkah pengerjaannya cukup mudah. Pertama pastikan cell mana yang akan dicek duplikasinya. Pada contoh ada di B2 hingga B8. Bisa sebutkan dari B2:B jika ke bawah semaksimalnya.]]></description>
+</item>
+<item>
+    <title>Shortcut Symbol Windows dan Linux</title>
+    <link>http://arifsatuan.github.io/xcompose/</link>
+    <pubDate>Mon, 03 Oct 2022 11:09:17 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/xcompose/</guid>
+    <description><![CDATA[Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan 3akar2 akan lebih baik jika ditulis 3√2. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb θ, ½, α, x²
+Install Menuliskan simbol-simbol umum cukup menggunakan tool yang disebut Compose. Di windows kita gunakan WinCompose sedangkan di linux ada XCompose
+Pada windows hanya cukup install WinCompose di sini]]></description>
+</item>
+<item>
+    <title>Membuat Folder Otomatis</title>
+    <link>http://arifsatuan.github.io/script_folder/</link>
+    <pubDate>Sun, 02 Oct 2022 16:52:33 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/script_folder/</guid>
+    <description><![CDATA[Pada postingan sebelumnya disebutkan bahwa jika ingin membuat validasi folder sudah terisi atau belum dapat menggunakan script Membaca Folder Google Drive. Masalah muncul jika folder yang disediakan sangat banyak (sejumlah siswa atau karyawan kantor), maka membuat folder juga perlu dikerjakan menggunakan script.
+Folder kosong di google drive Pada alamat google drive, ada bagian yang menunjukkan Folder Id
+1 https://drive.google.com/drive/folders/1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l Perhatikan 1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l adalah folder Id. Kemudian buat script baru dengan klik New di google drive -&gt; more -&gt; Google Appscript Membuat Script baru Script yang diisikan berupa list atau array dengan nama NIS, bisa disesuaikan dengan kebutuhan.]]></description>
+</item>
+<item>
+    <title>Membaca Folder Google Drive Otomatis</title>
+    <link>http://arifsatuan.github.io/script_gdrive/</link>
+    <pubDate>Sun, 02 Oct 2022 15:18:27 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/script_gdrive/</guid>
+    <description><![CDATA[Catatan kali ini diinspirasi dari &ldquo;kemalasan&rdquo; untuk tiap folder di google drive. Ceritanya sedang membuat folder yang diisi bersama, namun perlu dikonfirmasi siapa saja yang sudah dan siapa saja yang belum. Jika hanya kurang dari 10 tentu tidak masalah, lain halnya jika banyak folder yang harus dicek.
+Membuat Folder Gdrive Langkah pertama tentu saja membuat folder utama gdrive dan catat ID folder. Misal kita buat folder dengan nama MainFolder dan berisi subfolder seperti berikut Daftar Folder yang akan dibaca Dimana nanti akhirnya kita ingin setiap subfolder diisi/diupload penanggungjawabnya seperti subfolder3 dan subfolder4]]></description>
+</item>
+<item>
+    <title>Hello World</title>
+    <link>http://arifsatuan.github.io/hello/</link>
+    <pubDate>Sun, 02 Oct 2022 11:10:12 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/hello/</guid>
+    <description><![CDATA[Membuat blog menggunakan HUGO membutuhkan waktu lama dan menguras banyak tenaga di awal. Tentu saja karena bahasa Go yang masih terbilang kurang familiar. Justru ini tantangan, pantang untuk mundur. Toh dari lahir manusia sudah didesain mampu menghadapi kesulitan.
+&ldquo;walaupun sulit, besok juga sulit, kenapa tidak bersenang senang dengan kesulitan sekarang&rdquo;
+Kedepannya, blog ini semoga konsisten sebagai catatan dan dokumentasi kegiatan sehari-hari.
+Sebagai bukti bahwa blog ini sebagai dokumentasi, ingatlah perintah ini]]></description>
+</item>
+</channel>
+</rss>

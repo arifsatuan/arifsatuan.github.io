@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Masukkan Judul Tanpa Spasi :"
+read judul
+hugo new posts/$judul.md
+mkdir content/posts/$judul
+mv content/posts/$judul.md content/posts/$judul/index.md
+sed '$d' content/posts/$judul/index.md
+sed '$d' content/posts/$judul/index.md
+sed -i '4 i draft: false' content/posts/$judul/index.md
+sed -i '5 i description: "" ' content/posts/$judul/index.md
+sed -i '6 i resources:' content/posts/$judul/index.md
+sed -i '7 i - name: "featured-image"' content/posts/$judul/index.md
+sed -i '8 i    src: "featured-image.jpg"' content/posts/$judul/index.md
+sed -i '9 i tags: ["notes", "script"]' content/posts/$judul/index.md
+sed -i '10 i categories: ["notes"]' content/posts/$judul/index.md
+sed -i '11 i ---' content/posts/$judul/index.md
+vim content/posts/$judul/index.md

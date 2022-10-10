@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/git/</link>
+        <description>git - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 17:47:39 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Catatan GitHub</title>
+    <link>http://arifsatuan.github.io/catatan-git/</link>
+    <pubDate>Sun, 09 Oct 2022 17:47:39 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/catatan-git/</guid>
+    <description><![CDATA[1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
+1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
+1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.]]></description>
+</item>
+<item>
+    <title>Hello World</title>
+    <link>http://arifsatuan.github.io/hello/</link>
+    <pubDate>Sun, 02 Oct 2022 11:10:12 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/hello/</guid>
+    <description><![CDATA[Membuat blog menggunakan HUGO membutuhkan waktu lama dan menguras banyak tenaga di awal. Tentu saja karena bahasa Go yang masih terbilang kurang familiar. Justru ini tantangan, pantang untuk mundur. Toh dari lahir manusia sudah didesain mampu menghadapi kesulitan.
+&ldquo;walaupun sulit, besok juga sulit, kenapa tidak bersenang senang dengan kesulitan sekarang&rdquo;
+Kedepannya, blog ini semoga konsisten sebagai catatan dan dokumentasi kegiatan sehari-hari.
+Sebagai bukti bahwa blog ini sebagai dokumentasi, ingatlah perintah ini]]></description>
+</item>
+</channel>
+</rss>

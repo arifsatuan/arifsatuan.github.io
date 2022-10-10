@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>forms - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/forms/</link>
+        <description>forms - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/forms/" rel="self" type="application/rss+xml" /><item>
+    <title>Format Handphone Google Forms Dan Spreadsheets</title>
+    <link>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</link>
+    <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</guid>
+    <description><![CDATA[Format nomor handphone sering kali menyulitkan karena banyak sekali format. Mulai dari perbedaan tanda +62 maupun tanda - sebagai separator. Perlu pengolahan data yang efisien. Sampai saat ini, saya sendiri belum menemukan cara yang efektif. Berikut adalah tahapan yang biasa dilakukanL
+1. Memastikan inputannya google form seragam Google Forms memiliki fitur regex dalam validasi inputan. Manfaatkan fitur ini secara maksimal dengan menambahkan regular expression ‣ matches. Google Forms Regex Pada contoh pengisi form akan dipaksa mengisi nomor handphone dengan dimulai '08 , pada bagian pattern diisi]]></description>
+</item>
+</channel>
+</rss>
