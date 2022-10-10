@@ -4,16 +4,7 @@
         <link>http://arifsatuan.github.io/tags/script/</link>
         <description>script - Tag - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/script/" rel="self" type="application/rss+xml" /><item>
-    <title>Coba Script</title>
-    <link>http://arifsatuan.github.io/coba-script/</link>
-    <pubDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/coba-script/</guid>
-    <description><![CDATA[Perhatikan
-1 2 3 {{&lt; script &gt;}} console.log(&#39;Hello LoveIt!&#39;); {{&lt; /script &gt;}} ]]></description>
-</item>
-<item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/script/" rel="self" type="application/rss+xml" /><item>
     <title>Membuat Shadow dengan Imagemagick</title>
     <link>http://arifsatuan.github.io/membuat-shadow-imagemagick/</link>
     <pubDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</pubDate>

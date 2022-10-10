@@ -20,6 +20,7 @@
 {{- if .PrevInSection -}}
     <link rel="prev" href="{{ .PrevInSection.Permalink }}" />
 {{- end -}}
+{{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
 {{- if .NextInSection -}}
     <link rel="next" href="{{ .NextInSection.Permalink }}" />
 {{- end -}}
