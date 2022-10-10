@@ -1,7 +1,15 @@
 {{- $params := .Scratch.Get "params" -}}
 
 <meta name="Description" content="{{ $params.description | default .Site.Params.description }}">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-10BD5HSX2G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-10BD5HSX2G');
+</script>
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 
