@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>notes - Category - arifsatuan</title>
+        <link>http://arifsatuan.github.io/categories/notes/</link>
+        <description>notes - Category - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Coba Script</title>
+    <link>http://arifsatuan.github.io/coba-script/</link>
+    <pubDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/coba-script/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
