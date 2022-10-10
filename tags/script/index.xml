@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>script - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/script/</link>
+        <description>script - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/script/" rel="self" type="application/rss+xml" /><item>
+    <title>Membuat Shadow dengan Imagemagick</title>
+    <link>http://arifsatuan.github.io/membuat-shadow-imagemagick/</link>
+    <pubDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/membuat-shadow-imagemagick/</guid>
+    <description><![CDATA[Membuat screenshoot dengan shadow di sekitarnya dapat dilakukan dengan aplikasi editing seperti photoshop. Terlalu repot jika melakukannya berulang. Padahal bisa dilakukan dengan script bash sederhana
+1. Install imagemagick Buka terminal dan install dengan
+1 sudo apt install imagemagick 2. Membuat script Buat script sederhana di lokasi /usr/share/bin Ganti vim dengan nano atau editor favorit
+1 sudo vim /usr/share/bin/shadow Lalu isikan script berikut
+1 2 3 4 5 6 7 8 9 10 11 12 #!]]></description>
+</item>
+</channel>
+</rss>
