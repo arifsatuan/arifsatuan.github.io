@@ -16,18 +16,8 @@
                     hreflang="en"
                     href="http://arifsatuan.github.io/"
                     /></url><url>
-            <loc>http://arifsatuan.github.io/categories/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://arifsatuan.github.io/zh-cn/categories/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://arifsatuan.github.io/categories/"
-                    /></url><url>
             <loc>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/notes/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://arifsatuan.github.io/categories/notes/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/posts/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/script/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
@@ -55,6 +45,15 @@
             <loc>http://arifsatuan.github.io/script_folder/</loc><lastmod>2022-10-02T16:52:33&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://arifsatuan.github.io/script_gdrive/</loc><lastmod>2022-10-02T15:18:27&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>http://arifsatuan.github.io/hello/</loc><lastmod>2022-10-02T11:10:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>http://arifsatuan.github.io/categories/</loc><lastmod>2020-06-12T10:10:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://arifsatuan.github.io/zh-cn/categories/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://arifsatuan.github.io/categories/"
+                    /></url><url>
             <loc>http://arifsatuan.github.io/tags/configuration/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://arifsatuan.github.io/categories/documentation/</loc><lastmod>2020-06-12T10:10:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/installation/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
