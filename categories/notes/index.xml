@@ -4,14 +4,14 @@
         <link>http://arifsatuan.github.io/categories/notes/</link>
         <description>notes - Category - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/notes/" rel="self" type="application/rss+xml" /><item>
-    <title>Coba Script</title>
-    <link>http://arifsatuan.github.io/coba-script/</link>
-    <pubDate>Mon, 10 Oct 2022 19:18:31 &#43;0700</pubDate>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Hapus Duplicate Entry GoogleForms</title>
+    <link>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</link>
+    <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
     <author>arif</author>
-    <guid>http://arifsatuan.github.io/coba-script/</guid>
-    <description><![CDATA[Perhatikan
-1 2 3 {{&lt; script &gt;}} console.log(&#39;Hello LoveIt!&#39;); {{&lt; /script &gt;}} ]]></description>
+    <guid>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</guid>
+    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki. Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
+1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini. Berikut script untuk membaca dan menghapus inputan yang terduplikasi Contoh Duplicate 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 function onOpen() { var SS = SpreadsheetApp.]]></description>
 </item>
 </channel>
 </rss>

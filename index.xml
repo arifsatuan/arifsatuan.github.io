@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/</link>
         <description>catatan - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</lastBuildDate>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</lastBuildDate>
             <atom:link href="http://arifsatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Theme Documentation - mermaid Shortcode</title>
@@ -49,6 +49,15 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Hapus Duplicate Entry GoogleForms</title>
+    <link>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</link>
+    <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</guid>
+    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki. Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
+1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini. Berikut script untuk membaca dan menghapus inputan yang terduplikasi Contoh Duplicate 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 function onOpen() { var SS = SpreadsheetApp.]]></description>
+</item>
+<item>
     <title>Format Handphone Google Forms Dan Spreadsheets</title>
     <link>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</link>
     <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
@@ -89,15 +98,6 @@
 1 choco install hugo-extended atau bagi pengguna linux bisa download di github.com/gohugo/hugo lalu download release dengan nama hugo_extended_0.104.3_linux-amd64.deb. Setelah didownload, masuk ke folder tempat download lalu perintahkan
 1 sudo dpkg -i hugo_extended_0.104.3_linux-amd64.deb Pastikan bahwa hugo telah terinstall
 1 hugo version Membuat Website Pertama Misalkan website pertama kita adalah catatan, maka buat perintah]]></description>
-</item>
-<item>
-    <title>Catatan projek</title>
-    <link>http://arifsatuan.github.io/catatan_projek/</link>
-    <pubDate>Tue, 04 Oct 2022 11:37:51 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/catatan_projek/</guid>
-    <description><![CDATA[List yang dikumpulkan Pada pelaporan projek, hal yang perlu dipersiapkan
-Wajib mengumpulkan dokumentasi per kelompok di google drive Dokumentasi minimal 5 dengan nama file yang deskriptif, misal : Kegiatan menentukan tempat pelaksanaan.jpg contoh rename gambar Struktur folder harus terisi seperti berikut 1 2 3 4 5 6 7 8 9 10 11 12 13 14 ├── 10-1 │ ├── Dok_persiapan │ │ ├──gambar1.jpg │ │ ├──gambar2.jpg │ │ ├── . .]]></description>
 </item>
 </channel>
 </rss>
