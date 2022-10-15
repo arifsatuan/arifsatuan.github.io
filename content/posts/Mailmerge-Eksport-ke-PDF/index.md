@@ -47,36 +47,36 @@ Option Explicit
 '//Lookasi file akan disave dan lokasi excel
 Const FOLDER_SAVED As String = "C:\rapor\"
 Const SOURCE_FILE_PATH As String = "C:\rapor\data.xlsx"
+'//Nama Berdasarkan kolom tabel
+Const NAMA_DEPAN As String = "kelas"
+Const NAMA_BELAKANG As String = "nama"
+'// Nama Sheet
+Const NAMA_SHEET As String = "[nilai$]"
 
-Sub TestRun()
+
+Sub Save_AS_PDF()
 Dim MainDoc As Document, TargetDoc As Document
 Dim dbPath As String
 Dim recordNumber As Long, totalRecord As Long
 
 Set MainDoc = ActiveDocument
 With MainDoc.MailMerge
-    
-        '// if you want to specify your data, insert a WHERE claus   Lokasi SHEET
-        .OpenDataSource Name:=SOURCE_FILE_PATH, sqlstatement:="SELECT * FROM [nilai$]"
-            
+        '// masukkan FROM [namasheet$]
+       .OpenDataSource Name:=SOURCE_FILE_PATH, sqlstatement:="SELECT * FROM " & NAMA_SHEET
         totalRecord = .DataSource.RecordCount
 
         For recordNumber = 1 To totalRecord
-        
             With .DataSource
                 .ActiveRecord = recordNumber
                 .FirstRecord = recordNumber
                 .LastRecord = recordNumber
             End With
-            
             .Destination = wdSendToNewDocument
             .Execute False
             
             Set TargetDoc = ActiveDocument
-            '// Masukkan nama saving data, filename nantinya 
-            TargetDoc.SaveAs2 FOLDER_SAVED & .DataSource.DataFields("Nama").Value & ".docx", wdFormatDocumentDefault
-            TargetDoc.ExportAsFixedFormat FOLDER_SAVED & .DataSource.DataFields("Nama").Value & ".pdf", exportformat:=wdExportFormatPDF
-            
+            '// TargetDoc.SaveAs2 FOLDER_SAVED & .DataSource.DataFields("Nama").Value & ".docx", wdFormatDocumentDefault
+            TargetDoc.ExportAsFixedFormat FOLDER_SAVED & .DataSource.DataFields(NAMA_DEPAN).Value & "_" & .DataSource.DataFields(NAMA_BELAKANG).Value & ".pdf", exportformat:=wdExportFormatPDF
             TargetDoc.Close False
             
             Set TargetDoc = Nothing
@@ -87,6 +87,8 @@ End With
 
 Set MainDoc = Nothing
 End Sub
+
+
 ```
 Lalu run hingga selesai proses save to pdf
 ![running script](run-s.png "tampilan VBA script")
