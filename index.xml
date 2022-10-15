@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/</link>
         <description>catatan - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</lastBuildDate>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</lastBuildDate>
             <atom:link href="http://arifsatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Theme Documentation - mermaid Shortcode</title>
@@ -49,6 +49,15 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Shortcut Windows</title>
+    <link>http://arifsatuan.github.io/shortcut-windows/</link>
+    <pubDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
+    <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
+1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows No Shortcut Fungsi 1 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File) 2 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize 3 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah 4 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows 5 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan 6 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri 7 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
+</item>
+<item>
     <title>Mailmerge Eksport Ke PDF</title>
     <link>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</link>
     <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
@@ -87,16 +96,6 @@ rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file 
 1 sudo apt install imagemagick 2. Membuat script Buat script sederhana di lokasi /usr/share/bin Ganti vim dengan nano atau editor favorit
 1 sudo vim /usr/share/bin/shadow Lalu isikan script berikut
 1 2 3 4 5 6 7 8 9 10 11 12 #!]]></description>
-</item>
-<item>
-    <title>Catatan GitHub</title>
-    <link>http://arifsatuan.github.io/catatan-git/</link>
-    <pubDate>Sun, 09 Oct 2022 17:47:39 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/catatan-git/</guid>
-    <description><![CDATA[1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
-1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
-1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.]]></description>
 </item>
 </channel>
 </rss>
