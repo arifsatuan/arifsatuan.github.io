@@ -92,7 +92,7 @@ Lalu run hingga selesai proses save to pdf
 ![running script](run-s.png "tampilan VBA script")
 ![hasil akhir](hasil-s.png "Hasil Akhir File per nama")
 
-
+<kbd>Alt</kbd> + <kbd>F11</kbd> adalah `shortcut` membuka visual basic application.
 
 
 

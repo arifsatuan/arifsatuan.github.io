@@ -285,50 +285,50 @@ Simpan data dalam folder yang sama agar memudahkan mencarinya.
 </span><span class="lnt">44
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Option Explicit
-</span></span><span class="line"><span class="cl">&#39;//Lookasi file akan disave dan lokasi excel
-</span></span><span class="line"><span class="cl">Const FOLDER_SAVED As String = &#34;C:\rapor\&#34;
-</span></span><span class="line"><span class="cl">Const SOURCE_FILE_PATH As String = &#34;C:\rapor\data.xlsx&#34;
+<pre tabindex="0" class="chroma"><code class="language-basic" data-lang="basic"><span class="line"><span class="cl"><span class="vg">Option</span><span class="w"> </span><span class="vg">Explicit</span>
+</span></span><span class="line"><span class="cl"><span class="c1">&#39;//Lookasi file akan disave dan lokasi excel</span>
+</span></span><span class="line"><span class="cl"><span class="vg">Const</span><span class="w"> </span><span class="vg">FOLDER_SAVED</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">String</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&#34;C:\rapor\&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="vg">Const</span><span class="w"> </span><span class="vg">SOURCE_FILE_PATH</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">String</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&#34;C:\rapor\data.xlsx&#34;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Sub TestRun()
-</span></span><span class="line"><span class="cl">Dim MainDoc As Document, TargetDoc As Document
-</span></span><span class="line"><span class="cl">Dim dbPath As String
-</span></span><span class="line"><span class="cl">Dim recordNumber As Long, totalRecord As Long
+</span></span><span class="line"><span class="cl"><span class="vg">Sub</span><span class="w"> </span><span class="vg">TestRun</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="vg">Dim</span><span class="w"> </span><span class="vg">MainDoc</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">Document</span><span class="p">,</span><span class="w"> </span><span class="vg">TargetDoc</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">Document</span>
+</span></span><span class="line"><span class="cl"><span class="vg">Dim</span><span class="w"> </span><span class="vg">dbPath</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">String</span>
+</span></span><span class="line"><span class="cl"><span class="vg">Dim</span><span class="w"> </span><span class="vg">recordNumber</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">Long</span><span class="p">,</span><span class="w"> </span><span class="vg">totalRecord</span><span class="w"> </span><span class="vg">As</span><span class="w"> </span><span class="vg">Long</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Set MainDoc = ActiveDocument
-</span></span><span class="line"><span class="cl">With MainDoc.MailMerge
-</span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">        &#39;// if you want to specify your data, insert a WHERE claus   Lokasi SHEET
-</span></span><span class="line"><span class="cl">        .OpenDataSource Name:=SOURCE_FILE_PATH, sqlstatement:=&#34;SELECT * FROM [nilai$]&#34;
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">        totalRecord = .DataSource.RecordCount
+</span></span><span class="line"><span class="cl"><span class="vg">Set</span><span class="w"> </span><span class="vg">MainDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">ActiveDocument</span>
+</span></span><span class="line"><span class="cl"><span class="vg">With</span><span class="w"> </span><span class="vg">MainDoc</span><span class="o">.</span><span class="vg">MailMerge</span>
+</span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">&#39;// if you want to specify your data, insert a WHERE claus   Lokasi SHEET</span>
+</span></span><span class="line"><span class="cl"><span class="w">        </span><span class="o">.</span><span class="vg">OpenDataSource</span><span class="w"> </span><span class="nl">Name:</span><span class="o">=</span><span class="vg">SOURCE_FILE_PATH</span><span class="p">,</span><span class="w"> </span><span class="nl">sqlstatement:</span><span class="o">=</span><span class="s2">&#34;SELECT * FROM [nilai$]&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="w">            
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="vg">totalRecord</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">.</span><span class="vg">DataSource</span><span class="o">.</span><span class="vg">RecordCount</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        For recordNumber = 1 To totalRecord
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">            With .DataSource
-</span></span><span class="line"><span class="cl">                .ActiveRecord = recordNumber
-</span></span><span class="line"><span class="cl">                .FirstRecord = recordNumber
-</span></span><span class="line"><span class="cl">                .LastRecord = recordNumber
-</span></span><span class="line"><span class="cl">            End With
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">            .Destination = wdSendToNewDocument
-</span></span><span class="line"><span class="cl">            .Execute False
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">            Set TargetDoc = ActiveDocument
-</span></span><span class="line"><span class="cl">            &#39;// Masukkan nama saving data, filename nantinya 
-</span></span><span class="line"><span class="cl">            TargetDoc.SaveAs2 FOLDER_SAVED &amp; .DataSource.DataFields(&#34;Nama&#34;).Value &amp; &#34;.docx&#34;, wdFormatDocumentDefault
-</span></span><span class="line"><span class="cl">            TargetDoc.ExportAsFixedFormat FOLDER_SAVED &amp; .DataSource.DataFields(&#34;Nama&#34;).Value &amp; &#34;.pdf&#34;, exportformat:=wdExportFormatPDF
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">            TargetDoc.Close False
-</span></span><span class="line"><span class="cl">            
-</span></span><span class="line"><span class="cl">            Set TargetDoc = Nothing
-</span></span><span class="line"><span class="cl">                    
-</span></span><span class="line"><span class="cl">        Next recordNumber
+</span></span><span class="line"><span class="cl"><span class="w">        </span><span class="vg">For</span><span class="w"> </span><span class="vg">recordNumber</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="il">1</span><span class="w"> </span><span class="vg">To</span><span class="w"> </span><span class="vg">totalRecord</span>
+</span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">With</span><span class="w"> </span><span class="o">.</span><span class="vg">DataSource</span>
+</span></span><span class="line"><span class="cl"><span class="w">                </span><span class="o">.</span><span class="vg">ActiveRecord</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">recordNumber</span>
+</span></span><span class="line"><span class="cl"><span class="w">                </span><span class="o">.</span><span class="vg">FirstRecord</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">recordNumber</span>
+</span></span><span class="line"><span class="cl"><span class="w">                </span><span class="o">.</span><span class="vg">LastRecord</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">recordNumber</span>
+</span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">End</span><span class="w"> </span><span class="vg">With</span>
+</span></span><span class="line"><span class="cl"><span class="w">            
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="o">.</span><span class="vg">Destination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">wdSendToNewDocument</span>
+</span></span><span class="line"><span class="cl"><span class="w">            </span><span class="o">.</span><span class="vg">Execute</span><span class="w"> </span><span class="vg">False</span>
+</span></span><span class="line"><span class="cl"><span class="w">            
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">Set</span><span class="w"> </span><span class="vg">TargetDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">ActiveDocument</span>
+</span></span><span class="line"><span class="cl"><span class="w">            </span><span class="c1">&#39;// Masukkan nama saving data, filename nantinya </span>
+</span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">TargetDoc</span><span class="o">.</span><span class="vg">SaveAs2</span><span class="w"> </span><span class="vg">FOLDER_SAVED</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">.</span><span class="vg">DataSource</span><span class="o">.</span><span class="vg">DataFields</span><span class="p">(</span><span class="s2">&#34;Nama&#34;</span><span class="p">)</span><span class="o">.</span><span class="vg">Value</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="s2">&#34;.docx&#34;</span><span class="p">,</span><span class="w"> </span><span class="vg">wdFormatDocumentDefault</span>
+</span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">TargetDoc</span><span class="o">.</span><span class="vg">ExportAsFixedFormat</span><span class="w"> </span><span class="vg">FOLDER_SAVED</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">.</span><span class="vg">DataSource</span><span class="o">.</span><span class="vg">DataFields</span><span class="p">(</span><span class="s2">&#34;Nama&#34;</span><span class="p">)</span><span class="o">.</span><span class="vg">Value</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="s2">&#34;.pdf&#34;</span><span class="p">,</span><span class="w"> </span><span class="nl">exportformat:</span><span class="o">=</span><span class="vg">wdExportFormatPDF</span>
+</span></span><span class="line"><span class="cl"><span class="w">            
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">TargetDoc</span><span class="o">.</span><span class="vg">Close</span><span class="w"> </span><span class="vg">False</span>
+</span></span><span class="line"><span class="cl"><span class="w">            
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="vg">Set</span><span class="w"> </span><span class="vg">TargetDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">Nothing</span>
+</span></span><span class="line"><span class="cl"><span class="w">                    
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="vg">Next</span><span class="w"> </span><span class="vg">recordNumber</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">End With
+</span></span><span class="line"><span class="cl"><span class="vg">End</span><span class="w"> </span><span class="vg">With</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">Set MainDoc = Nothing
-</span></span><span class="line"><span class="cl">End Sub
+</span></span><span class="line"><span class="cl"><span class="vg">Set</span><span class="w"> </span><span class="vg">MainDoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="vg">Nothing</span>
+</span></span><span class="line"><span class="cl"><span class="vg">End</span><span class="w"> </span><span class="vg">Sub</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Lalu run hingga selesai proses save to pdf
