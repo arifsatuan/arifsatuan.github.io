@@ -7,7 +7,7 @@
             <loc>http://arifsatuan.github.io/theme-documentation-mapbox-shortcode/</loc><lastmod>2020-03-03T13:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://arifsatuan.github.io/theme-documentation-music-shortcode/</loc><lastmod>2020-03-03T12:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://arifsatuan.github.io/theme-documentation-typeit-shortcode/</loc><lastmod>2020-03-03T10:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://arifsatuan.github.io/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://arifsatuan.github.io/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="http://arifsatuan.github.io/zh-cn/"
@@ -16,6 +16,19 @@
                     hreflang="en"
                     href="http://arifsatuan.github.io/"
                     /></url><url>
+            <loc>http://arifsatuan.github.io/tags/notes/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://arifsatuan.github.io/posts/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://arifsatuan.github.io/shortcut-windows/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://arifsatuan.github.io/tags/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="http://arifsatuan.github.io/zh-cn/tags/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="http://arifsatuan.github.io/tags/"
+                    /></url><url>
+            <loc>http://arifsatuan.github.io/tags/windows/</loc><lastmod>2022-10-15T19:23:54&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/categories/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -26,19 +39,8 @@
                     href="http://arifsatuan.github.io/categories/"
                     /></url><url>
             <loc>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://arifsatuan.github.io/tags/notes/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/categories/notes/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://arifsatuan.github.io/posts/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/script/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://arifsatuan.github.io/tags/</loc><lastmod>2022-10-15T13:15:20&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="http://arifsatuan.github.io/zh-cn/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="http://arifsatuan.github.io/tags/"
-                    /></url><url>
             <loc>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</loc><lastmod>2022-10-11T13:20:12&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</loc><lastmod>2022-10-09T20:36:01&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://arifsatuan.github.io/tags/forms/</loc><lastmod>2022-10-09T20:36:01&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

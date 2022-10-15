@@ -4,7 +4,16 @@
         <link>http://arifsatuan.github.io/tags/notes/</link>
         <description>notes - Tag - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Shortcut Windows</title>
+    <link>http://arifsatuan.github.io/shortcut-windows/</link>
+    <pubDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
+    <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
+1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows No Shortcut Fungsi 1 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File) 2 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize 3 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah 4 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows 5 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan 6 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri 7 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
+</item>
+<item>
     <title>Mailmerge Eksport Ke PDF</title>
     <link>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</link>
     <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
@@ -94,15 +103,6 @@ Pada windows hanya cukup install WinCompose di sini]]></description>
     <description><![CDATA[Pada postingan sebelumnya disebutkan bahwa jika ingin membuat validasi folder sudah terisi atau belum dapat menggunakan script Membaca Folder Google Drive. Masalah muncul jika folder yang disediakan sangat banyak (sejumlah siswa atau karyawan kantor), maka membuat folder juga perlu dikerjakan menggunakan script.
 Folder kosong di google drive Pada alamat google drive, ada bagian yang menunjukkan Folder Id
 1 https://drive.google.com/drive/folders/1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l Perhatikan 1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l adalah folder Id. Kemudian buat script baru dengan klik New di google drive -&gt; more -&gt; Google Appscript Membuat Script baru Script yang diisikan berupa list atau array dengan nama NIS, bisa disesuaikan dengan kebutuhan.]]></description>
-</item>
-<item>
-    <title>Membaca Folder Google Drive Otomatis</title>
-    <link>http://arifsatuan.github.io/script_gdrive/</link>
-    <pubDate>Sun, 02 Oct 2022 15:18:27 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/script_gdrive/</guid>
-    <description><![CDATA[Catatan kali ini diinspirasi dari &ldquo;kemalasan&rdquo; untuk tiap folder di google drive. Ceritanya sedang membuat folder yang diisi bersama, namun perlu dikonfirmasi siapa saja yang sudah dan siapa saja yang belum. Jika hanya kurang dari 10 tentu tidak masalah, lain halnya jika banyak folder yang harus dicek.
-Membuat Folder Gdrive Langkah pertama tentu saja membuat folder utama gdrive dan catat ID folder. Misal kita buat folder dengan nama MainFolder dan berisi subfolder seperti berikut Daftar Folder yang akan dibaca Dimana nanti akhirnya kita ingin setiap subfolder diisi/diupload penanggungjawabnya seperti subfolder3 dan subfolder4]]></description>
 </item>
 </channel>
 </rss>

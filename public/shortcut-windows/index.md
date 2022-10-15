@@ -1,10 +1,5 @@
----
-title: "Shortcut Favorit Windows"
-date: 2022-10-15T19:23:54+07:00
-draft: false
-description: "" 
-tags: ["notes", "windows"]
----
+# Shortcut Windows
+
 Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
 ### 1. Kelompok Ctrl 
 | No | Shortcut                         | Fungsi                                                |
@@ -42,26 +37,4 @@ Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut 
 | 13 | <kbd>F4</kbd>                     | Mengulang format atau perintah terakhir                               |
 | 14 | <kbd>Ctrl</kbd> + <kbd> Z </kbd>  | Kembali ke tahap sebelumnya, UNDO                                     |
 | 15 | <kbd>Ctrl</kbd> + <kbd> P </kbd>  | Mencetak atau Print dokumen                                           |
-
-### 4. Windows + R 
-Cara penggunaannya, klik bersamaan <kbd>:(fa-brands fa-windows):</kbd>+<kbd>R</kbd> lalu masukkan keyword berikut, lalu tekan <kbd>↵</kbd>
-![windows run](winrun-s.png "tampilan win+R")
-| No | Shortcut       | Fungsi                                                 |
-|----|----------------|--------------------------------------------------------|
-| 1  | `appwiz.cpl`   | Uninstall program                                      |
-| 2  | `ncpa.cpl`     | Network Connection (untuk konfigurasi network devices) |
-| 3  | `%tmp%`        | Membuka folder temporary                               |
-| 4  | `services.msc` | Menampilkan service sedang berjalan                    |
-| 5  | `resmon`       | Menampilkan _resources_ seperti CPU, RAM, HDD, Network |
-| 6  | `powercfg.cpl` | Menampilkan power configurasi                          |
-| 7  | `regedit`      | Membuka registry Editor                                |
-| 8  | `cmd`          | Membuka aplikasi command Promt                         |
-| 9  | `powershell`   | Membuka terminal powershell (generasi baru cmd)`       |
-| 10 | `winver`       | Menampilkan versi windows :(fa-brands fa-windows):     |
-| 11 | `control`      | Menampilkan control panel                              |
-| 12 | `.`            | Menampilan folder user utama                           |
-| 13 | `mrt`          | Malicious Software Removal Tool                        |
-| 14 | `osk`          | OnScreen Keyboard                                      |
-| 15 | `wfs`          | Windows Fax and Scanner                                |
-
 
