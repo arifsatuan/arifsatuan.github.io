@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/</link>
         <description>catatan - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</lastBuildDate>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</lastBuildDate>
             <atom:link href="http://arifsatuan.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Theme Documentation - mermaid Shortcode</title>
@@ -49,13 +49,23 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Mailmerge Eksport Ke PDF</title>
+    <link>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</link>
+    <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</guid>
+    <description><![CDATA[1. Membuat Dokumen Template Langkah pertama adalah membuat dokumen template dengan membuat dua buah dokumen yakni word dan excel
+rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file versi .docm 2. Siapkan data Langkah selanjutnya adalah menyiapkan data sesuai dengan kolom pada tabel yang akan diisi. Bisa juga sebaliknya, sesuaikan template dengan kolom data yang akan ditampilkan. tampilan data di sheet nilai Simpan data dalam folder yang sama agar memudahkan mencarinya.]]></description>
+</item>
+<item>
     <title>Hapus Duplicate Entry GoogleForms</title>
     <link>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</link>
     <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
     <author>arif</author>
     <guid>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</guid>
-    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki. Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
-1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini. Berikut script untuk membaca dan menghapus inputan yang terduplikasi Contoh Duplicate 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 function onOpen() { var SS = SpreadsheetApp.]]></description>
+    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki, salah satunya karena input double.
+0. Pendahuluan Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
+1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini.]]></description>
 </item>
 <item>
     <title>Format Handphone Google Forms Dan Spreadsheets</title>
@@ -87,17 +97,6 @@
     <description><![CDATA[1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
 1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
 1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.]]></description>
-</item>
-<item>
-    <title>Cara Membuat Website Hugo</title>
-    <link>http://arifsatuan.github.io/first_post/</link>
-    <pubDate>Thu, 06 Oct 2022 09:56:48 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/first_post/</guid>
-    <description><![CDATA[Persiapan Membuat website menggunakan Hugo wajib bisa menggunakan terminal. Bisa juga pelajari dan install chocolatey. Jika chocolatey sudah terinstall, buka terminal dalam mode administrator lalu ketik berikut
-1 choco install hugo-extended atau bagi pengguna linux bisa download di github.com/gohugo/hugo lalu download release dengan nama hugo_extended_0.104.3_linux-amd64.deb. Setelah didownload, masuk ke folder tempat download lalu perintahkan
-1 sudo dpkg -i hugo_extended_0.104.3_linux-amd64.deb Pastikan bahwa hugo telah terinstall
-1 hugo version Membuat Website Pertama Misalkan website pertama kita adalah catatan, maka buat perintah]]></description>
 </item>
 </channel>
 </rss>

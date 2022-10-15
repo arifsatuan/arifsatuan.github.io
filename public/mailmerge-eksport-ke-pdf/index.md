@@ -1,14 +1,5 @@
----
-title: "Mailmerge Eksport Ke PDF"
-date: 2022-10-15T13:15:20+07:00
-draft: false
-description: "" 
-resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
-tags: ["notes", "script"]
-categories: ["notes"]
----
+# Mailmerge Eksport Ke PDF
+
 ### 1. Membuat Dokumen Template 
 Langkah pertama adalah membuat dokumen template dengan membuat dua buah dokumen yakni word dan excel 
 1. rapor.docm (documen dengan makro)
@@ -42,7 +33,7 @@ Preview Result untuk memastikan bahwa tidak ada yang tertukar
 
 ### 4. Menambahkan script 
 Melakukan save as pdf atau print as pdf secara manual satu per satu akan membutuhkan banyak waktu dan tenaga, oleh karena itu kita gunakan bantuan script dengan menggunakan tombol `Atl F11`, lalu copy berikut
-```basic
+```
 Option Explicit
 '//Lookasi file akan disave dan lokasi excel
 Const FOLDER_SAVED As String = "C:\rapor\"
@@ -91,6 +82,7 @@ End Sub
 Lalu run hingga selesai proses save to pdf
 ![running script](run-s.png "tampilan VBA script")
 ![hasil akhir](hasil-s.png "Hasil Akhir File per nama")
+
 
 
 

@@ -1,6 +1,11 @@
 # Hapus Duplicate Entry GoogleForms
 
-Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki. Saya pribadi sering berkomentar `"Silakan input lagi, nanti yang awal saya hapus"`. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut. 
+
+
+Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki, salah satunya karena input double.
+
+### 0. Pendahuluan
+Saya pribadi sering berkomentar `"Silakan input lagi, nanti yang awal saya hapus"`. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut. 
 ### 1. Membuat spreadsheets
 Langkah awal, buat script di google spreadsheets, bisa dilihat [di sini](https://arifsatuan.github.io/script_gdrive/). Berikut script untuk membaca dan menghapus inputan yang terduplikasi 
 ![Inputan respon google form](excel-duplicate-s.png "Contoh Duplicate")
