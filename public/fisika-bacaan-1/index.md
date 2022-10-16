@@ -37,9 +37,8 @@ Efek tegangan Hall awalnya ditemukan oleh Edwin Hall pada tahun 1879. Efek hall 
 Efek Hall adalah munculnya perbedaan tegangan pada penghantar yang tegak lurus antara arus dan medan magnet. Pemahaman mengenai efek Hall dapat dilihat pda ilustrasi berikut
 ![skema Hall-effect](skema.png "Efek Hall")
 ![aturan right hand](righthand.png "aturan Gaya Lorentz tangan kanan")
-Elektron mengalir dari negatif ke positif. Artinya ada arus dari positif ke negatif. Agar lebih mudah dan konsisten dengan ilustrasi, tidak perlu memperhatikan arah arus. Cukup lihat gerakan muatan negatif (elektron). Medan magnet $ B $ dari kutub utara menuju kutub selatan. Dengan menggunakan aturan tangan kanan untuk muatan negatif maka timbul gaya ke arah atas. Sehingga elektron terdorong ke atas. Akibatnya bagian atas lebih **negatif** daripada bagian bawah. Dengan kata lain, bagian bawah bersifat **positif** bagian atas bersifat **negatif**. Inilah yang menyebabkan timbul tegangan-Hall (perhatikan gambar)
-
-Pada umumnya efek-Hall dan tegangan-Hall dijadikan dasar dalam pembuatan sensormagentik. Tegangan-Hall $ V_H $ bernilai proporsional atau sebanding dengan kekuatan medan magnet yang menembus penghantar tersebut. Besarnya tegangan-Hall bisa saja sangat kecil, dalam orde microvolts, bahkan saat magnet yang sangat kuat didekatkan. Oleh karena itu perangkat yang menggunakan sifat efek-Hall disertai penguat DC (amplifier), histerisis, dan pengatur tegangan untuk memperbaiki sensitivitas dan output dari perangkat tersebut.
+   Elektron mengalir dari negatif ke positif. Artinya ada arus dari positif ke negatif. Agar lebih mudah dan konsisten dengan ilustrasi, tidak perlu memperhatikan arah arus. Cukup lihat gerakan muatan negatif (elektron). Medan magnet $ B $ dari kutub utara menuju kutub selatan. Dengan menggunakan aturan tangan kanan untuk muatan negatif maka timbul gaya ke arah atas. Sehingga elektron terdorong ke atas. Akibatnya bagian atas lebih **negatif** dan bagian bawah menjadi kutub  **positif**. Inilah yang menyebabkan timbul tegangan-Hall (perhatikan gambar)
+Pada umumnya efek-Hall dan tegangan-Hall dijadikan dasar dalam pembuatan sensor magentik. Tegangan-Hall $ V_H $ bernilai proporsional atau sebanding dengan kekuatan medan magnet yang menembus penghantar tersebut. Besarnya tegangan-Hall bisa saja sangat kecil, dalam orde microvolts, bahkan saat magnet yang sangat kuat didekatkan. Oleh karena itu perangkat yang menggunakan sifat efek-Hall disertai penguat DC (amplifier), histerisis, dan pengatur tegangan untuk memperbaiki sensitivitas dan output dari perangkat tersebut.
 
 Aplikasi efek-Hall sebagai sensor antara lain
 - sebagai _switch_ atau saklar
@@ -51,6 +50,13 @@ Aplikasi efek-Hall sebagai sensor antara lain
 
 Sensor Hall tersedia dalam berbagai bentuk, dari IC (SMD) maupun komponen DIP. Harganya juga bervariasi dari yang paling murah hingga paling mahal. Secara umum sensor hall yang ada di pasaran Indonesia seperti pada gambar.
 ![sensor](sensor.gif "Efek Hall sebagai Switch")
+
+{{< admonition note "Projek sensor medan magnet">}}
+1. Dilakukan dengan anggota 5 orang
+2. Cari bahan semurah mungkin, boleh menggunakan komponen bekas. 
+3. Projek dikumpulkan dalam wujud fisik, disertai esai yang mencakup (Judul, alat-alat atau komponen, fungsi dan cara kerja alat)
+4. Alternatif selain `sensor Hall` adalah `reed sensor`. 
+{{< /admonition >}}
 ### 3. Pertanyaan
 
 {{< rawhtml >}}
