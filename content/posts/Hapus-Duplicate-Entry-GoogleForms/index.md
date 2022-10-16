@@ -4,7 +4,8 @@ date: 2022-10-11T13:20:12+07:00
 draft: false
 description: "" 
 resources:
-tags: ["notes", "script"]
+tags: ["notes", "script","googleforms"]
+categories: ["office-google"]
 ---
 
 

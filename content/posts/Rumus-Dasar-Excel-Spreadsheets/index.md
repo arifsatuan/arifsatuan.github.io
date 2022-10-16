@@ -4,7 +4,7 @@ date: 2022-10-16T06:13:31+07:00
 draft: false
 description: "" 
 tags: ["notes", "excel"]
-categories: ["spreadsheet-excel"]
+categories: ["excel-spreadsheets"]
 ---
 Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
 

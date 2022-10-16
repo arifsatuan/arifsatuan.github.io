@@ -7,7 +7,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
 tags: ["notes", "script"]
-categories: ["notes"]
+categories: ["office-google"]
 ---
 ### 1. Membuat Dokumen Template 
 Langkah pertama adalah membuat dokumen template dengan membuat dua buah dokumen yakni word dan excel 

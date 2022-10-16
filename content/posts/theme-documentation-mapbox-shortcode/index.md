@@ -12,8 +12,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
 
-tags: ["shortcodes"]
-categories: ["documentation"]
+#tags: ["shortcodes"]
+#categories: ["documentation"]
 
 hiddenFromHomePage: true
 

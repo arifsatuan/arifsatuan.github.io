@@ -5,6 +5,7 @@ draft: false
 tags:
 - notes
 - script
+categories: ["linux"]
 ---
 
 Membuat screenshoot dengan shadow di sekitarnya dapat dilakukan dengan aplikasi editing seperti photoshop. Terlalu repot jika melakukannya berulang. Padahal bisa dilakukan dengan script `bash` sederhana

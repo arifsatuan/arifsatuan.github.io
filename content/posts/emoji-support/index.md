@@ -11,8 +11,8 @@ resources:
 - name: "featured-image"
   src: "featured-image.jpg"
 
-tags: ["emoji"]
-categories: ["Markdown"]
+#tags: ["emoji"]
+#categories: ["Markdown"]
 
 twemoji: false
 lightgallery: true

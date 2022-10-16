@@ -13,8 +13,8 @@ resources:
 - name: "featured-image-preview"
   src: "featured-image-preview.jpg"
 
-tags: ["shortcodes"]
-categories: ["documentation"]
+#tags: ["shortcodes"]
+#categories: ["documentation"]
 
 lightgallery: true
 

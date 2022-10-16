@@ -5,6 +5,7 @@ draft: false
 tags:
 - notes
 - git
+categories: ["linux"]
 ---
 ## 1. Koneksi dengan SSH 
 Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek [di sini](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)

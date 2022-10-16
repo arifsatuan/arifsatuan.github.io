@@ -4,7 +4,15 @@
         <link>http://arifsatuan.github.io/tags/notes/</link>
         <description>notes - Tag - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Tips Mempercepat Windows</title>
+    <link>http://arifsatuan.github.io/tips-mempercepatan-windows/</link>
+    <pubDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/tips-mempercepatan-windows/</guid>
+    <description><![CDATA[Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut Windows Share terbesar Bagi pemilik komputer atau laptop dengan kategori high-end tentu saja windows 10 cukup nyaman untuk digunakan sehari-hari. Lain halnya dengan perangkat yang memiliki processor hemat (daya maupun harga), maupun perangkat yang sudah lama. Keluhan seperti lemot, cepat panas, dan lain-lain tentu saja membuat tidak nyaman. Berikut tips optimasi windows yang bisa dilakukan]]></description>
+</item>
+<item>
     <title>Rumus Dasar Excel Spreadsheets</title>
     <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
     <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
@@ -93,16 +101,6 @@ rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file 
     <description><![CDATA[Penggunaan google spreadsheet semenjak pasca pandemi terus meningkat dan menjadi pengganti ms excel.
 Ada kalanya kebutuhan yang ada di ms excel tidak dapat dijawab secara langsung di google spreadsheet, perlu pengaturan khusus. Salah satu yang saya temukan adalah ketiadaan highlight duplicate cell.
 Langkah Langkah pengerjaannya cukup mudah. Pertama pastikan cell mana yang akan dicek duplikasinya. Pada contoh ada di B2 hingga B8. Bisa sebutkan dari B2:B jika ke bawah semaksimalnya.]]></description>
-</item>
-<item>
-    <title>Shortcut Symbol Windows dan Linux</title>
-    <link>http://arifsatuan.github.io/xcompose/</link>
-    <pubDate>Mon, 03 Oct 2022 11:09:17 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/xcompose/</guid>
-    <description><![CDATA[Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan 3akar2 akan lebih baik jika ditulis 3√2. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb θ, ½, α, x²
-Install Menuliskan simbol-simbol umum cukup menggunakan tool yang disebut Compose. Di windows kita gunakan WinCompose sedangkan di linux ada XCompose
-Pada windows hanya cukup install WinCompose di sini]]></description>
 </item>
 </channel>
 </rss>

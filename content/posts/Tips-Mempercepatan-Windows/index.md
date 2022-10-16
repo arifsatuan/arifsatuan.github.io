@@ -3,7 +3,7 @@ title: "Tips Mempercepat Windows"
 date: 2022-10-16T12:28:43+07:00
 draft: false
 description: "" 
-tags: ["notes", "tips"]
+tags: ["notes", "tips","windows"]
 categories: ["windows"]
 ---
 Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut

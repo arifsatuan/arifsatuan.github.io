@@ -5,6 +5,8 @@ draft: false
 tags:
 - notes
 - googlesheets
+- script
+categories: ["excel-spreadsheets"]
 ---
 Penggunaan google spreadsheet semenjak pasca pandemi terus meningkat dan menjadi pengganti ms excel.  
 Ada kalanya kebutuhan yang ada di ms excel tidak dapat dijawab secara langsung di google spreadsheet, perlu pengaturan khusus. Salah satu yang saya temukan adalah ketiadaan **highlight duplicate cell**. 

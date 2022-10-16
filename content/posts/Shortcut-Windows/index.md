@@ -4,6 +4,7 @@ date: 2022-10-15T19:23:54+07:00
 draft: false
 description: "" 
 tags: ["notes", "windows"]
+categories : ["windows"]
 ---
 Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
 ### 1. Kelompok Ctrl 

@@ -5,8 +5,7 @@ draft: false
 tags:
 - notes
 - tools
-ShowToC: true
-TocOpen: true
+categories: ["linux", "windows"]
 ---
 Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang  hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan `3akar2` akan lebih baik jika ditulis `3√2`. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb `θ, ½, α, x²`
 
