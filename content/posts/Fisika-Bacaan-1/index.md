@@ -77,7 +77,7 @@ Sensor Hall tersedia dalam berbagai bentuk, dari IC (SMD) maupun komponen DIP. H
 3. Projek dikumpulkan dalam wujud fisik, disertai esai yang mencakup (Judul, alat-alat atau komponen, fungsi dan cara kerja alat)
 4. Alternatif selain [sensor hall](https://www.tokopedia.com/search?navsource=&ob=3&pmax=20000&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&st=product&q=sensor%20hall%20modul)  adalah [reed sensor](https://www.tokopedia.com/search?navsource=&ob=3&pmax=10000&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&st=product&q=sensor%20reed). 
 5. Gunakan [breadboard](https://www.tokopedia.com/find/breadboard) dalam penyusunan prototype
-6. Contoh ada di [sini](https://www.youtube.com/watch?v=6GGJOEmvulY)
+6. Contoh pengaplikasian ada di [sini](https://www.youtube.com/watch?v=6GGJOEmvulY)
 {{< /admonition >}}
 ### 3. Simpulan
 
