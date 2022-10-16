@@ -24,9 +24,10 @@
 1. Perhatikan arah medan, arah arus gerakannya
 2. Gambarkan menggunakan grafik berikut
  ![gambar](coord.png "koordinat 3D")
-3. Catat rangkaian di atas, serta hasil pada poin nomor 2 
-4. Secara berkelompok (5 orang) silakan buat projek penggunaan sensor magnetik (Hall effect) 
-5. Prinsip pembuatan alat : "Berfungsi & ekonomis"
+3. Catat rangkaian di atas **di buku catatan**, serta hasil pada poin nomor 2 
+4. Perhatikan bacaan di bawah mengenai aturan tangan kanan, apakah sudah sesuai?
+5. Secara berkelompok (5 orang) silakan buat projek penggunaan sensor magnetik (Hall effect) 
+6. Prinsip pembuatan alat : "Berfungsi & ekonomis"
 {{< /admonition >}}
 ### 2. Simak bacaan
 **Sensor Hall dan Aplikasinya**
