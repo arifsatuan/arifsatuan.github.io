@@ -23,5 +23,24 @@ rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file 
 0. Pendahuluan Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
 1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini.]]></description>
 </item>
+<item>
+    <title>Membuat Folder Otomatis</title>
+    <link>http://arifsatuan.github.io/script_folder/</link>
+    <pubDate>Sun, 02 Oct 2022 16:52:33 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/script_folder/</guid>
+    <description><![CDATA[Pada postingan sebelumnya disebutkan bahwa jika ingin membuat validasi folder sudah terisi atau belum dapat menggunakan script Membaca Folder Google Drive. Masalah muncul jika folder yang disediakan sangat banyak (sejumlah siswa atau karyawan kantor), maka membuat folder juga perlu dikerjakan menggunakan script.
+Folder kosong di google drive Pada alamat google drive, ada bagian yang menunjukkan Folder Id
+1 https://drive.google.com/drive/folders/1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l Perhatikan 1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l adalah folder Id. Kemudian buat script baru dengan klik New di google drive -&gt; more -&gt; Google Appscript Membuat Script baru Script yang diisikan berupa list atau array dengan nama NIS, bisa disesuaikan dengan kebutuhan.]]></description>
+</item>
+<item>
+    <title>Membaca Folder Google Drive Otomatis</title>
+    <link>http://arifsatuan.github.io/script_gdrive/</link>
+    <pubDate>Sun, 02 Oct 2022 15:18:27 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/script_gdrive/</guid>
+    <description><![CDATA[Catatan kali ini diinspirasi dari &ldquo;kemalasan&rdquo; untuk tiap folder di google drive. Ceritanya sedang membuat folder yang diisi bersama, namun perlu dikonfirmasi siapa saja yang sudah dan siapa saja yang belum. Jika hanya kurang dari 10 tentu tidak masalah, lain halnya jika banyak folder yang harus dicek.
+Membuat Folder Gdrive Langkah pertama tentu saja membuat folder utama gdrive dan catat ID folder. Misal kita buat folder dengan nama MainFolder dan berisi subfolder seperti berikut Daftar Folder yang akan dibaca Dimana nanti akhirnya kita ingin setiap subfolder diisi/diupload penanggungjawabnya seperti subfolder3 dan subfolder4]]></description>
+</item>
 </channel>
 </rss>
