@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>excel-spreadsheets - Category - arifsatuan</title>
+        <link>http://arifsatuan.github.io/categories/excel-spreadsheets/</link>
+        <description>excel-spreadsheets - Category - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/excel-spreadsheets/" rel="self" type="application/rss+xml" /><item>
+    <title>Rumus Dasar Excel Spreadsheets</title>
+    <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
+    <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</guid>
+    <description><![CDATA[Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
+1. sum, average, max, min Rumus ini merupakan rumus paling dasar dalam pengelolaan data menggunakan Microsoft Excel - Spreadsheets
+1 2 3 4 =SUM(CELLYANGDIJUMLAH) , contoh =SUM(A1:B8) =AVERAGE(rentang rata-rata) , contoh =AVERAGE(A1:B8) =MAX(rentang dicari maksimal), contoh =MAX(A1:B8) =MIN(rentang dicari minimal), contoh =MIN(A1:B8) rumus atau formula dasar sum, average 2.]]></description>
+</item>
+<item>
+    <title>Highlight Duplicate di Google Sheets</title>
+    <link>http://arifsatuan.github.io/highlight_google_spreadsheet/</link>
+    <pubDate>Mon, 03 Oct 2022 12:58:48 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/highlight_google_spreadsheet/</guid>
+    <description><![CDATA[Penggunaan google spreadsheet semenjak pasca pandemi terus meningkat dan menjadi pengganti ms excel.
+Ada kalanya kebutuhan yang ada di ms excel tidak dapat dijawab secara langsung di google spreadsheet, perlu pengaturan khusus. Salah satu yang saya temukan adalah ketiadaan highlight duplicate cell.
+Langkah Langkah pengerjaannya cukup mudah. Pertama pastikan cell mana yang akan dicek duplikasinya. Pada contoh ada di B2 hingga B8. Bisa sebutkan dari B2:B jika ke bawah semaksimalnya.]]></description>
+</item>
+</channel>
+</rss>

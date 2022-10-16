@@ -5,9 +5,7 @@ draft: false
 tags: 
 - notes
 - googlescript
-ShowToc: true
-TocOpen: true
-
+categories: ["office-google"]
 ---
 
 Catatan kali ini diinspirasi dari "kemalasan" untuk tiap folder di google drive. Ceritanya sedang membuat folder yang diisi bersama, namun perlu dikonfirmasi siapa saja yang sudah dan siapa saja yang belum. Jika hanya kurang dari 10 tentu tidak masalah, lain halnya jika banyak folder yang harus dicek. 

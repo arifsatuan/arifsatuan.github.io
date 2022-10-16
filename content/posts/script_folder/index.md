@@ -5,6 +5,7 @@ draft: false
 tags:
 - notes
 - googlescript 
+categories: ["office-google"]
 ---
 Pada postingan sebelumnya disebutkan bahwa jika ingin membuat validasi folder sudah terisi atau belum dapat menggunakan script [Membaca Folder Google Drive](https://arifsatuan.github.io/post/script_gdrive). Masalah muncul jika folder yang disediakan sangat banyak (sejumlah siswa atau karyawan kantor), maka membuat folder juga perlu dikerjakan menggunakan script. 
 
