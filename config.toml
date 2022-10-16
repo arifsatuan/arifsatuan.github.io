@@ -225,7 +225,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = "index.json"
+      index = "index"
       appID = "Y27D64N593"
       searchKey = "b1117f6e91a90aa644f666e880abc2c3"
 
@@ -399,7 +399,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -810,10 +810,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = ""
         url = "https://github.com/arifsatuan/links"
         title = "GitHub"
+#PARAMETER SEARCHING YANG BENAR
     [languages.en.params]
       [languages.en.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
@@ -821,9 +822,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         highlightTag = "em"
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index"
-          appID = "Y27D64N593"
-          searchKey = "b1117f6e91a90aa644f666e880abc2c3"
+          index = "index.zh-cn"
+          appID = "YPASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
