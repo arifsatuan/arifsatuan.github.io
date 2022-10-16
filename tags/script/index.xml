@@ -35,5 +35,15 @@ rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file 
 1 sudo vim /usr/share/bin/shadow Lalu isikan script berikut
 1 2 3 4 5 6 7 8 9 10 11 12 #!]]></description>
 </item>
+<item>
+    <title>Highlight Duplicate di Google Sheets</title>
+    <link>http://arifsatuan.github.io/highlight_google_spreadsheet/</link>
+    <pubDate>Mon, 03 Oct 2022 12:58:48 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/highlight_google_spreadsheet/</guid>
+    <description><![CDATA[Penggunaan google spreadsheet semenjak pasca pandemi terus meningkat dan menjadi pengganti ms excel.
+Ada kalanya kebutuhan yang ada di ms excel tidak dapat dijawab secara langsung di google spreadsheet, perlu pengaturan khusus. Salah satu yang saya temukan adalah ketiadaan highlight duplicate cell.
+Langkah Langkah pengerjaannya cukup mudah. Pertama pastikan cell mana yang akan dicek duplikasinya. Pada contoh ada di B2 hingga B8. Bisa sebutkan dari B2:B jika ke bawah semaksimalnya.]]></description>
+</item>
 </channel>
 </rss>

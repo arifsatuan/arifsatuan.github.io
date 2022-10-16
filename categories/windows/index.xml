@@ -12,5 +12,24 @@
     <guid>http://arifsatuan.github.io/tips-mempercepatan-windows/</guid>
     <description><![CDATA[Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut Windows Share terbesar Bagi pemilik komputer atau laptop dengan kategori high-end tentu saja windows 10 cukup nyaman untuk digunakan sehari-hari. Lain halnya dengan perangkat yang memiliki processor hemat (daya maupun harga), maupun perangkat yang sudah lama. Keluhan seperti lemot, cepat panas, dan lain-lain tentu saja membuat tidak nyaman. Berikut tips optimasi windows yang bisa dilakukan]]></description>
 </item>
+<item>
+    <title>Shortcut Favorit Windows</title>
+    <link>http://arifsatuan.github.io/shortcut-windows/</link>
+    <pubDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
+    <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
+1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows NoShortcutFungsi1<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File)2<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize3<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah4<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows5<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan6<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri7<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
+</item>
+<item>
+    <title>Shortcut Symbol Windows dan Linux</title>
+    <link>http://arifsatuan.github.io/xcompose/</link>
+    <pubDate>Mon, 03 Oct 2022 11:09:17 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/xcompose/</guid>
+    <description><![CDATA[Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan 3akar2 akan lebih baik jika ditulis 3√2. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb θ, ½, α, x²
+Install Menuliskan simbol-simbol umum cukup menggunakan tool yang disebut Compose. Di windows kita gunakan WinCompose sedangkan di linux ada XCompose
+Pada windows hanya cukup install WinCompose di sini]]></description>
+</item>
 </channel>
 </rss>

@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>linux - Category - arifsatuan</title>
+        <link>http://arifsatuan.github.io/categories/linux/</link>
+        <description>linux - Category - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Membuat Shadow dengan Imagemagick</title>
+    <link>http://arifsatuan.github.io/membuat-shadow-imagemagick/</link>
+    <pubDate>Sun, 09 Oct 2022 20:01:26 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/membuat-shadow-imagemagick/</guid>
+    <description><![CDATA[Membuat screenshoot dengan shadow di sekitarnya dapat dilakukan dengan aplikasi editing seperti photoshop. Terlalu repot jika melakukannya berulang. Padahal bisa dilakukan dengan script bash sederhana
+1. Install imagemagick Buka terminal dan install dengan
+1 sudo apt install imagemagick 2. Membuat script Buat script sederhana di lokasi /usr/share/bin Ganti vim dengan nano atau editor favorit
+1 sudo vim /usr/share/bin/shadow Lalu isikan script berikut
+1 2 3 4 5 6 7 8 9 10 11 12 #!]]></description>
+</item>
+<item>
+    <title>Catatan GitHub</title>
+    <link>http://arifsatuan.github.io/catatan-git/</link>
+    <pubDate>Sun, 09 Oct 2022 17:47:39 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/catatan-git/</guid>
+    <description><![CDATA[1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
+1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
+1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.]]></description>
+</item>
+<item>
+    <title>Shortcut Symbol Windows dan Linux</title>
+    <link>http://arifsatuan.github.io/xcompose/</link>
+    <pubDate>Mon, 03 Oct 2022 11:09:17 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/xcompose/</guid>
+    <description><![CDATA[Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan 3akar2 akan lebih baik jika ditulis 3√2. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb θ, ½, α, x²
+Install Menuliskan simbol-simbol umum cukup menggunakan tool yang disebut Compose. Di windows kita gunakan WinCompose sedangkan di linux ada XCompose
+Pada windows hanya cukup install WinCompose di sini]]></description>
+</item>
+</channel>
+</rss>

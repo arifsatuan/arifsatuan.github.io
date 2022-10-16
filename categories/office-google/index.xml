@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>office-google - Category - arifsatuan</title>
+        <link>http://arifsatuan.github.io/categories/office-google/</link>
+        <description>office-google - Category - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/office-google/" rel="self" type="application/rss+xml" /><item>
+    <title>Mailmerge Eksport Ke PDF</title>
+    <link>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</link>
+    <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</guid>
+    <description><![CDATA[1. Membuat Dokumen Template Langkah pertama adalah membuat dokumen template dengan membuat dua buah dokumen yakni word dan excel
+rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file versi .docm 2. Siapkan data Langkah selanjutnya adalah menyiapkan data sesuai dengan kolom pada tabel yang akan diisi. Bisa juga sebaliknya, sesuaikan template dengan kolom data yang akan ditampilkan. tampilan data di sheet nilai Simpan data dalam folder yang sama agar memudahkan mencarinya.]]></description>
+</item>
+<item>
+    <title>Hapus Duplicate Entry GoogleForms</title>
+    <link>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</link>
+    <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</guid>
+    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki, salah satunya karena input double.
+0. Pendahuluan Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
+1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini.]]></description>
+</item>
+</channel>
+</rss>
