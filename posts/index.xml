@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/posts/</link>
         <description>All Posts | arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - mermaid Shortcode</title>
     <link>http://arifsatuan.github.io/theme-documentation-mermaid-shortcode/</link>
     <pubDate>Tue, 03 Mar 2020 15:29:41 &#43;0800</pubDate>
@@ -47,6 +47,14 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Tips Mempercepat Windows</title>
+    <link>http://arifsatuan.github.io/tips-mempercepatan-windows/</link>
+    <pubDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/tips-mempercepatan-windows/</guid>
+    <description><![CDATA[Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut Windows Share terbesar Bagi pemilik komputer atau laptop dengan kategori high-end tentu saja windows 10 cukup nyaman untuk digunakan sehari-hari. Lain halnya dengan perangkat yang memiliki processor hemat (daya maupun harga), maupun perangkat yang sudah lama. Keluhan seperti lemot, cepat panas, dan lain-lain tentu saja membuat tidak nyaman. Berikut tips optimasi windows yang bisa dilakukan]]></description>
+</item>
+<item>
     <title>Rumus Dasar Excel Spreadsheets</title>
     <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
     <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
@@ -83,15 +91,6 @@ rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file 
     <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki, salah satunya karena input double.
 0. Pendahuluan Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
 1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini.]]></description>
-</item>
-<item>
-    <title>Format Handphone Google Forms Dan Spreadsheets</title>
-    <link>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</link>
-    <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/format-handphone-google-forms-dan-spreadsheets/</guid>
-    <description><![CDATA[Format nomor handphone sering kali menyulitkan karena banyak sekali format. Mulai dari perbedaan tanda +62 maupun tanda - sebagai separator. Perlu pengolahan data yang efisien. Sampai saat ini, saya sendiri belum menemukan cara yang efektif. Berikut adalah tahapan yang biasa dilakukanL
-1. Memastikan inputannya google form seragam Google Forms memiliki fitur regex dalam validasi inputan. Manfaatkan fitur ini secara maksimal dengan menambahkan regular expression ‣ matches. Google Forms Regex Pada contoh pengisi form akan dipaksa mengisi nomor handphone dengan dimulai '08 , pada bagian pattern diisi]]></description>
 </item>
 </channel>
 </rss>
