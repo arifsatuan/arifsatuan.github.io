@@ -4,14 +4,24 @@
         <link>http://arifsatuan.github.io/tags/notes/</link>
         <description>notes - Tag - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/notes/" rel="self" type="application/rss+xml" /><item>
+    <title>Rumus Dasar Excel Spreadsheets</title>
+    <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
+    <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</guid>
+    <description><![CDATA[Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
+1. sum, average, max, min Rumus ini merupakan rumus paling dasar dalam pengelolaan data menggunakan Microsoft Excel - Spreadsheets
+1 2 3 4 =SUM(CELLYANGDIJUMLAH) , contoh =SUM(A1:B8) =AVERAGE(rentang rata-rata) , contoh =AVERAGE(A1:B8) =MAX(rentang dicari maksimal), contoh =MAX(A1:B8) =MIN(rentang dicari minimal), contoh =MIN(A1:B8) rumus atau formula dasar sum, average 2.]]></description>
+</item>
+<item>
     <title>Shortcut Favorit Windows</title>
     <link>http://arifsatuan.github.io/shortcut-windows/</link>
     <pubDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</pubDate>
     <author>arif</author>
     <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
     <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
-1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows No Shortcut Fungsi 1 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File) 2 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize 3 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah 4 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows 5 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan 6 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri 7 <i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
+1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows NoShortcutFungsi1<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File)2<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize3<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah4<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows5<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan6<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri7<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
 </item>
 <item>
     <title>Mailmerge Eksport Ke PDF</title>
@@ -93,16 +103,6 @@ Langkah Langkah pengerjaannya cukup mudah. Pertama pastikan cell mana yang akan 
     <description><![CDATA[Bagi sebagian orang menuliskan symbol tertentu tidak terlalu penting, namun bagi sebagian orang hal tersebut menjadi vital. Misal saja seorang guru ingin menuliskan 3akar2 akan lebih baik jika ditulis 3√2. Begitu juga simbol theta, setengah, alfa, pangkat dua dsb θ, ½, α, x²
 Install Menuliskan simbol-simbol umum cukup menggunakan tool yang disebut Compose. Di windows kita gunakan WinCompose sedangkan di linux ada XCompose
 Pada windows hanya cukup install WinCompose di sini]]></description>
-</item>
-<item>
-    <title>Membuat Folder Otomatis</title>
-    <link>http://arifsatuan.github.io/script_folder/</link>
-    <pubDate>Sun, 02 Oct 2022 16:52:33 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/script_folder/</guid>
-    <description><![CDATA[Pada postingan sebelumnya disebutkan bahwa jika ingin membuat validasi folder sudah terisi atau belum dapat menggunakan script Membaca Folder Google Drive. Masalah muncul jika folder yang disediakan sangat banyak (sejumlah siswa atau karyawan kantor), maka membuat folder juga perlu dikerjakan menggunakan script.
-Folder kosong di google drive Pada alamat google drive, ada bagian yang menunjukkan Folder Id
-1 https://drive.google.com/drive/folders/1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l Perhatikan 1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l adalah folder Id. Kemudian buat script baru dengan klik New di google drive -&gt; more -&gt; Google Appscript Membuat Script baru Script yang diisikan berupa list atau array dengan nama NIS, bisa disesuaikan dengan kebutuhan.]]></description>
 </item>
 </channel>
 </rss>
