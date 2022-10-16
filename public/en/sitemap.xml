@@ -39,7 +39,7 @@
     
   <url>
     <loc>http://arifsatuan.github.io/</loc>
-    <lastmod>2022-10-16T12:28:43+07:00</lastmod>
+    <lastmod>2022-10-16T19:36:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -56,7 +56,7 @@
     
   <url>
     <loc>http://arifsatuan.github.io/categories/</loc>
-    <lastmod>2022-10-16T12:28:43+07:00</lastmod>
+    <lastmod>2022-10-16T19:36:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -72,14 +72,28 @@
   </url>
     
   <url>
-    <loc>http://arifsatuan.github.io/tags/notes/</loc>
-    <lastmod>2022-10-16T12:28:43+07:00</lastmod>
+    <loc>http://arifsatuan.github.io/categories/fisika/</loc>
+    <lastmod>2022-10-16T19:36:35+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/fisika-bacaan-1/</loc>
+    <lastmod>2022-10-16T19:36:35+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
     <loc>http://arifsatuan.github.io/posts/</loc>
+    <lastmod>2022-10-16T19:36:35+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/tags/notes/</loc>
     <lastmod>2022-10-16T12:28:43+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

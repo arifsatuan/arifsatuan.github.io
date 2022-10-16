@@ -1,0 +1,41 @@
+
+form { max-width:80%; margin:50px auto; }
+
+.form-input {
+//color:white;
+//font-family: Helvetica, Arial, sans-serif;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #2d96bd;
+transition: all 0.3s;
+padding: 0.5em;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.form-input:focus { border:2px solid #2d96bd; }
+
+textarea {
+
+}
+
+[type="submit"] {
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+width: 100%;
+background:#2d96bd;
+border-radius:5px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type="submit"]:hover { background:#0e3340; }
+
