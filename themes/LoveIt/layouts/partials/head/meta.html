@@ -10,6 +10,10 @@
 
   gtag('config', 'G-10BD5HSX2G');
 </script>
+{{- with .Params.robotsdisallow -}}
+<meta name="robots" content="noindex, nofollow, noarchive">
+{{- end -}}
+
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 

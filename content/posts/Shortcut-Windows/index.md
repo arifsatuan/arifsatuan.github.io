@@ -7,41 +7,44 @@ tags: ["notes", "windows"]
 ---
 Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
 ### 1. Kelompok Ctrl 
-| No | Shortcut                         | Fungsi                                                |
-|----|----------------------------------|-------------------------------------------------------|
-| 1  | <kbd>Ctrl</kbd> + <kbd> C </kbd> | Copy teks yang sedang dipilih (selected)              |
-| 2  | <kbd>Ctrl</kbd> + <kbd> A </kbd> | Memilih semua teks yang sedang tampil                 |
-| 3  | <kbd>Ctrl</kbd> + <kbd> V </kbd> | Paste / menempelkan teks yang sudah dicopy sebelumnya |
-| 4  | <kbd>Ctrl</kbd> + <kbd> X </kbd> | Cut atau memotong teks untuk selanjutnya dipaste      |
+<table>
+    <thead>
+        <tr>
+            <td style="width:4%">No</td>
+            <td style="width:40%">Shortcut</td>
+            <td>Fungsi</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td><kbd>Ctrl</kbd> + <kbd> C </kbd></td>
+            <td>Copy teks yang sedang dipilih (selected)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><kbd>Ctrl</kbd> + <kbd> A </kbd></td>
+            <td>Memilih semua teks yang sedang tampil</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><kbd>Ctrl</kbd> + <kbd> V </kbd></td>
+            <td>Paste / menempelkan teks yang sudah dicopy sebelumnya</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><kbd>Ctrl</kbd> + <kbd> X </kbd></td>
+            <td>Cut atau memotong teks untuk selanjutnya dipaste</td>
+        </tr>
+    </tbody>
+</table>
+
+
 ### 2. Kombinasi tombol Windows
-| No | Shortcut                                             | Fungsi                                                        |
-|----|------------------------------------------------------|---------------------------------------------------------------|
-| 1  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> E </kbd> | Membuka Windows Explorer (File)                               |
-| 2  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> D </kbd> | Menampilkan desktop sekaligus minimize                        |
-| 3  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> R </kbd> | Menjalankan (run) program tertentu, lebih lengkapnya di bawah |
-| 4  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> I </kbd> | Membuka fitur Setting pada windows                            |
-| 5  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> → </kbd> | Menggeser window (aplikasi) menjadi setengah di kanan         |
-| 6  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> ← </kbd> | Menggeser window (aplikasi) menjadi setengah di kiri          |
-| 7  | <kbd>:(fa-brands fa-windows):</kbd> + <kbd> ↑ </kbd> | Menggeser window (aplikasi) menjadi setengah di atas          |
+<table><thead><tr><td>No</td><td style="width:40%">Shortcut</td><td>Fungsi</td></tr></thead><tbody><tr><td>1</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> E </kbd></td><td>Membuka Windows Explorer (File)</td></tr><tr><td>2</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> D </kbd></td><td>Menampilkan desktop sekaligus minimize</td></tr><tr><td>3</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> R </kbd></td><td>Menjalankan (run) program tertentu, lebih lengkapnya di bawah</td></tr><tr><td>4</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> I </kbd></td><td>Membuka fitur Setting pada windows</td></tr><tr><td>5</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> → </kbd></td><td>Menggeser window (aplikasi) menjadi setengah di kanan</td></tr><tr><td>6</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> ← </kbd></td><td>Menggeser window (aplikasi) menjadi setengah di kiri</td></tr><tr><td>7</td><td><kbd>:(fa-brands fa-windows):</kbd> + <kbd> ↑ </kbd></td><td>Menggeser window (aplikasi) menjadi setengah di atas</td></tr></tbody></table>
 
 ### 3. Shortcut di Microsoft Office
-| No | Shortcut                          | Fungsi                                                                |
-|----|-----------------------------------|-----------------------------------------------------------------------|
-| 1  | <kbd>Ctrl</kbd> + <kbd> C </kbd>  | Copy teks yang sedang dipilih (selected)                              |
-| 2  | <kbd>Ctrl</kbd> + <kbd> A </kbd>  | Memilih semua teks yang sedang tampil                                 |
-| 3  | <kbd>Ctrl</kbd> + <kbd> V </kbd>  | Paste / menempelkan teks yang sudah dicopy sebelumnya                 |
-| 4  | <kbd>Ctrl</kbd> + <kbd> X </kbd>  | Cut atau memotong teks untuk selanjutnya dipaste                      |
-| 5  | <kbd>Ctrl</kbd> + <kbd> E </kbd>  | Mengatur teks agar berada di tengah                                   |
-| 6  | <kbd>Ctrl</kbd> + <kbd> J </kbd>  | Mengatur agar teks rata kanan kiri (justify)                          |
-| 7  | <kbd>Ctrl</kbd> + <kbd> L </kbd>  | Mengatur agar teks rata di kiri (left) atau <kbd> R</kbd> untuk kanan |
-| 8  | <kbd>Ctrl</kbd> + <kbd> B </kbd>  | Mengatur agar teks **tebal**                                          |
-| 9  | <kbd>Ctrl</kbd> + <kbd> I </kbd>  | Mengatur agar teks _italic_ atau _miring_                             |
-| 10 | <kbd>Ctrl</kbd> + <kbd> U </kbd>  | Mengatur agar teks <u>bergaris bawah</u> atau <u>underlined</u>       |
-| 11 | <kbd>Ctrl</kbd> + <kbd> S </kbd>  | Menyimpan dokumen, TIPS : sering lakukan agar aman                    |
-| 12 | <kbd>F12</kbd>                    | Save as atau simpan sebagai                                           |
-| 13 | <kbd>F4</kbd>                     | Mengulang format atau perintah terakhir                               |
-| 14 | <kbd>Ctrl</kbd> + <kbd> Z </kbd>  | Kembali ke tahap sebelumnya, UNDO                                     |
-| 15 | <kbd>Ctrl</kbd> + <kbd> P </kbd>  | Mencetak atau Print dokumen                                           |
+<table><thead><tr><td>No</td><td style="width:40%">Shortcut</td><td>Fungsi</td></tr></thead><tbody><tr><td>1</td><td><kbd>Ctrl</kbd> + <kbd> C </kbd></td><td>Copy teks yang sedang dipilih (selected)</td></tr><tr><td>2</td><td><kbd>Ctrl</kbd> + <kbd> A </kbd></td><td>Memilih semua teks yang sedang tampil</td></tr><tr><td>3</td><td><kbd>Ctrl</kbd> + <kbd> V </kbd></td><td>Paste / menempelkan teks yang sudah dicopy sebelumnya</td></tr><tr><td>4</td><td><kbd>Ctrl</kbd> + <kbd> X </kbd></td><td>Cut atau memotong teks untuk selanjutnya dipaste</td></tr><tr><td>5</td><td><kbd>Ctrl</kbd> + <kbd> E </kbd></td><td>Mengatur teks agar berada di tengah</td></tr><tr><td>6</td><td><kbd>Ctrl</kbd> + <kbd> J </kbd></td><td>Mengatur agar teks rata kanan kiri (justify)</td></tr><tr><td>7</td><td><kbd>Ctrl</kbd> + <kbd> L </kbd></td><td>Mengatur agar teks rata di kiri (left) atau <kbd> R</kbd> untuk kanan</td></tr><tr><td>8</td><td><kbd>Ctrl</kbd> + <kbd> B </kbd></td><td>Mengatur agar teks **tebal**</td></tr><tr><td>9</td><td><kbd>Ctrl</kbd> + <kbd> I </kbd></td><td>Mengatur agar teks _italic_ atau _miring_</td></tr><tr><td>10</td><td><kbd>Ctrl</kbd> + <kbd> U </kbd></td><td>Mengatur agar teks <u>bergaris bawah</u> atau <u>underlined</u></td></tr><tr><td>11</td><td><kbd>Ctrl</kbd> + <kbd> S </kbd></td><td>Menyimpan dokumen, TIPS : sering lakukan agar aman</td></tr><tr><td>12</td><td><kbd>F12</kbd></td><td>Save as atau simpan sebagai</td></tr><tr><td>13</td><td><kbd>F4</kbd></td><td>Mengulang format atau perintah terakhir</td></tr><tr><td>14</td><td><kbd>Ctrl</kbd> + <kbd> Z </kbd></td><td>Kembali ke tahap sebelumnya, UNDO</td></tr><tr><td>15</td><td><kbd>Ctrl</kbd> + <kbd> P </kbd></td><td>Mencetak atau Print dokumen</td></tr></tbody></table>
 
 ### 4. Windows + R 
 Cara penggunaannya, klik bersamaan <kbd>:(fa-brands fa-windows):</kbd>+<kbd>R</kbd> lalu masukkan keyword berikut, lalu tekan <kbd>↵</kbd>
