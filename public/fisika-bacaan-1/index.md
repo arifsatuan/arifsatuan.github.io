@@ -70,6 +70,8 @@ Sensor Hall tersedia dalam berbagai bentuk, dari IC (SMD) maupun komponen DIP. H
 2. Cari bahan semurah mungkin, boleh menggunakan komponen bekas. 
 3. Projek dikumpulkan dalam wujud fisik, disertai esai yang mencakup (Judul, alat-alat atau komponen, fungsi dan cara kerja alat)
 4. Alternatif selain `sensor Hall` adalah `reed sensor`. 
+5. Gunakan `breadboard` dalam penyusunan prototype
+6. Contoh ada di [sini](https://www.youtube.com/watch?v=6GGJOEmvulY)
 {{< /admonition >}}
 ### 3. Simpulan
 
