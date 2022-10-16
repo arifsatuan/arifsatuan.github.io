@@ -34,7 +34,7 @@ Kemudian pilih service yang tidak diperlukan untuk dihentikan
 
 Caranya :  `klik kanan` -> `Properties` -> `startup type : disabled` -> `stop`
 {{< rawhtml >}} 
-<video width=100% controls autoplay>
+<video width=100% controls >
     <source src="video.mp4" type="video/mp4">
     Your browser does not support the video tag.  
 </video>
