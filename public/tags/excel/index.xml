@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>excel - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/excel/</link>
+        <description>excel - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/excel/" rel="self" type="application/rss+xml" /><item>
+    <title>Rumus Dasar Excel Spreadsheets</title>
+    <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
+    <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</guid>
+    <description><![CDATA[Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
+1. sum, average, max, min Rumus ini merupakan rumus paling dasar dalam pengelolaan data menggunakan Microsoft Excel - Spreadsheets
+1 2 3 4 =SUM(CELLYANGDIJUMLAH) , contoh =SUM(A1:B8) =AVERAGE(rentang rata-rata) , contoh =AVERAGE(A1:B8) =MAX(rentang dicari maksimal), contoh =MAX(A1:B8) =MIN(rentang dicari minimal), contoh =MIN(A1:B8) rumus atau formula dasar sum, average 2.]]></description>
+</item>
+</channel>
+</rss>
