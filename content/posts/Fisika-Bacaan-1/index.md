@@ -10,39 +10,42 @@ categories: ["Fisika"]
 **Praktikum Gaya Lorentz**
 {{< admonition abstract "Alat dan Bahan" >}}
 1. magnet U atau dua buah magnet Batang
-2. Siapkan alumunium foil sebagai penghantar (setipis mungkin)
-3. Catu daya 
+2. Siapkan alumunium foil sebagai penghantar (lebar 3-5mm)
+3. Catu daya atau _power supply_ (PS)
 4. Resistor (rheostat)
 5. Amperemeter 
+6. Kabel secukupnya
+7. Kompas, kertas dan serbuk besi
 {{< /admonition >}} 
 
 {{< admonition note "Langkah Kerja" >}}
-1. Susun peralatan seperti berikut
-![rangkaian](rangkaian.png "Skema rangkaian")
-2. Pastikan arus terukur pada angka mendekati `3A`
-3. Matikan catu daya
-4. Posisikan magnet seperti demikian
+1. **Perc 1:** Susun peralatan seperti berikut, pastikan arus mencapai `3A`, lalu matikan catu daya. Jangan menyalakan PS terlalu lama.
+![rangkaian](rang.png "Skema rangkaian")
+2. Sebarkan atau serbuk besi setipis dan sedekat mungkin dengan kabel. Nyalakan PS, amati → gambar → matikan PS 
+3. Letakkan kompas di salah satu titik (kiri, kanan, depan, blkg), lalu nyalakan catu daya → amati perubahan arahnya → matikan PS. 
+4. Ulangi langkah 3 dengan lokasi kompas yang berbeda
+5. Simpulkan dalam tabel laporan
+6. **Perc 2:** Susun peralatan seperti gambar, pastikan arus `3A` lalu matikan PS. 
+![rangkaian](rangkaian.png "Aluminium Foil")
+7. Letakkan magnet di posisi seperti gambar berikut. Nyalakan PS → amati → gambar → matikan PS
 ![rangkaian](skema2.png "Posisi magnet")
-5. Nyalakan catu daya kemudian perhatikan dan catat kejadian pada alumunium foil, lalu matikan kembali.
-6. Gabungkan dengan kelompok lain sehingga membentuk gambar berikut
+8. Ubahlah posisi magnet **atau** ubah arah arus, amati kembali seperti no 7
+9. Gabungkan dengan kelompok lain sehingga membentuk gambar berikut. Nyalakan PS → amati → gambar → matikan PS.
 ![rangkaian](rangkaian2.png "susunan 2 kawat")
-7. Nyalakan catu daya kemudian perhatikan dan catat kejadian pada alumunium foil, lalu matikan kembali.
-8. Ulangi langkah 6 dengan mengubah arah arus salah satu kawat
-9. Karena amperemeter terbatas, proses di atas bisa dilakukan **tanpa amperemeter**. Kebutuhan amperemeter hanya di awal untuk menentukan tegangan dan rheostat yang sesuai. 
 {{< /admonition >}} 
 
 {{< admonition bug "Laporan">}}
-1. Perhatikan arah medan, arah arus gerakannya
-2. Catat rangkaian di atas **di buku catatan**, 
-3. Gambarkan arus, medan dan gaya menggunakan grafik berikut
+1. Gambar rangkaian utama (lihat no 1)
+2. Penggambaran arah arus, medan dan gaya menggunakan koordinat 3D (tidak perlu x,y,z)
  ![gambar](coord.png "koordinat 3D")
-4. Perhatikan bacaan di bawah mengenai aturan tangan kanan, apakah sudah sesuai?
-5. Tulis kesimpulan dalam tabel 
-| No | Hasil pengamatan  | Sketsa gambar |
-|----|-------------------|---------------|
-| 1  | _berisi deskripsi_|               |
-| 2  |                   |               |
-| 3  |                   |               |
+3. Tulis kesimpulan dalam tabel 
+| No | Hasil pengamatan  | Sketsa gambar | Vektor |
+|----|-------------------|---------------|--------|
+| 1  | _berisi deskripsi_|               |        |
+| 2  |                   |               |        |
+| 3  |                   |               |        |
+
+4. Simpulkan apakah arah kombinasi $ i, B, F$ sudah sesuai dengan aturan tangan kanan?
 
 {{< /admonition >}}
 ### 2. Simak bacaan
