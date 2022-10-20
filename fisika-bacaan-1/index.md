@@ -1,4 +1,4 @@
-# Fisika - Medan Magnet 1
+# Fisika 12 - Medan Magnet 1
 
 ### 1. Praktikum 
 **Praktikum Gaya Lorentz**
