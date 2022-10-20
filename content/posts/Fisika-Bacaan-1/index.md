@@ -1,5 +1,5 @@
 ---
-title: "Fisika - Medan Magnet 1"
+title: "Fisika 12 - Medan Magnet 1"
 date: 2022-10-16T19:36:35+07:00
 draft: false
 description: "" 
