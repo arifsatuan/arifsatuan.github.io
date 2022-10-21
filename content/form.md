@@ -20,14 +20,12 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
         <input type="text" pattern="^[0-9]{5}$" placeholder="5 digit NIS" class="form-input" name="entry.154653614" required title="Harus 5 digit atuh Neng!">
 
    <label>Pertanyaan 1</label>
-        <textarea rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Rangkum apa saja yang sudah dibaca di bacaan di atas dalam 3 paragraf" class="form-input" name="entry.1125416052" ></textarea>
+        <textarea onpaste="return false;" ondrop="return false;" autocomplete="off" rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Rangkum apa saja yang sudah dibaca di bacaan di atas dalam 3 paragraf" class="form-input" name="entry.1125416052" ></textarea>
  <label>Pertanyaan 2</label>
-        <textarea rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Sebutkan satu rumus (selain contoh di atas), apa saja variabelnya, konsep apa yang ada di dalamnya" class="form-input" name="entry.394474086" ></textarea>
+        <textarea onpaste="return false;" ondrop="return false;" autocomplete="off" rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Sebutkan satu rumus (selain contoh di atas), apa saja variabelnya, konsep apa yang ada di dalamnya" class="form-input" name="entry.394474086" ></textarea>
 
    <button type="submit">Send</button>
 </form>
-
-<iframe style="height:400px; width:100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTx7GJTfNij7kKAurUSBKxLFaCAGNFkYeA2IO7qnXyPL4Ep-6EcYp_VY7JXS_p5P8MMVzZKLzjvgut_/pubhtml?gid=1904460953&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ```
 
