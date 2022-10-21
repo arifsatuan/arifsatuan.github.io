@@ -12,18 +12,23 @@ Penulisan form intinya
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
 onload="if(submitted) {window.location='/thankyou';}"></iframe>
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSc4_IDUPGYGTHQ0g0GgBTc3sGdQSbMA-Sbr02SijiO-qT_EAg/formResponse" 
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSd43IjAIBJEYvhWlAWXCEZ67APgEVAubD3bZxanJudhxbKOQw/formResponse" 
 method="post" target="hidden_iframe" onsubmit="submitted=true;">
 </form>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSc4_IDUPGYGTHQ0g0GgBTc3sGdQSbMA-Sbr02SijiO-qT_EAg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSd43IjAIBJEYvhWlAWXCEZ67APgEVAubD3bZxanJudhxbKOQw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
   <label>NIS</label>
-        <input type="number" placeholder="5 digit NIS" class="form-input" name="entry.472610624" required>
+        <input type="text" pattern="^[0-9]{5}$" placeholder="5 digit NIS" class="form-input" name="entry.154653614" required title="Harus 5 digit atuh Neng!">
 
-   <label>Resume</label>
-        <textarea rows="5" placeholder="ketikkan minimal 2 paragraf kegiatan praktikum hari ini dihubungkan dengan teks bacaan di atas" class="form-input" name="entry.1370131877" ></textarea>
+   <label>Pertanyaan 1</label>
+        <textarea rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Rangkum apa saja yang sudah dibaca di bacaan di atas dalam 3 paragraf" class="form-input" name="entry.1125416052" ></textarea>
+ <label>Pertanyaan 2</label>
+        <textarea rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Sebutkan satu rumus (selain contoh di atas), apa saja variabelnya, konsep apa yang ada di dalamnya" class="form-input" name="entry.394474086" ></textarea>
 
    <button type="submit">Send</button>
 </form>
+
+<iframe style="height:400px; width:100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTx7GJTfNij7kKAurUSBKxLFaCAGNFkYeA2IO7qnXyPL4Ep-6EcYp_VY7JXS_p5P8MMVzZKLzjvgut_/pubhtml?gid=1904460953&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 ```
 
 Degan sebelumnya membuat file `static/css/forms.css`
