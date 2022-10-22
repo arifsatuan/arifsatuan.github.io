@@ -7,7 +7,7 @@ resources:
 - name: "featured-image"
 src: "featured-image.jpg"
 tags: ["", ""]
-categories: ["Fisika"]
+categories: ["fisika"]
 ---
 
 ### 1. Hakikat Fisika

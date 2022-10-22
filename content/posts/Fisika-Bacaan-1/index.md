@@ -4,7 +4,7 @@ date: 2022-10-16T19:36:35+07:00
 draft: false
 description: "" 
 src: "featured-image.jpg"
-categories: ["Fisika"]
+categories: ["fisika"]
 ---
 ### 1. Praktikum 
 **Praktikum Gaya Lorentz**
