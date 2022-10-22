@@ -4,10 +4,10 @@ echo -n "Comment: "
 #echo $ans
 git add .
 #comment =  $RANDOM | base64 | head -c 20;
-git commit -m $RANDOM
+git commit -m date
 git push origin main
 hugo
 cd public
 git add .
-git commit -m $ans
+git commit -m date
 git push origin pages
