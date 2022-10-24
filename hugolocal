@@ -1,0 +1,2 @@
+#!/usr/bin/bash sh
+hugo server --disableFastRender --baseUrl=http://116.197.134.11 --bind="116.197.134.11"

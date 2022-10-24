@@ -83,7 +83,7 @@ Sensor Hall tersedia dalam berbagai bentuk, dari IC (SMD) maupun komponen DIP. H
 6. Contoh pengaplikasian ada di [sini](https://www.youtube.com/watch?v=6GGJOEmvulY)
 {{< /admonition >}}
 ### 3. Simpulan
-
+[Rekap Nilai](https://docs.google.com/spreadsheets/d/1NnGyj_bQnHlSkr3qZc-ULXL6HINCTDyS3G9jnkcVUZ8/edit?rm=minimal)
 {{< rawhtml >}}
 <link rel="stylesheet" href="/css/form.css">
 <script type="text/javascript">var submitted=false;</script>
