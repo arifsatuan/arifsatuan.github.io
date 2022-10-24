@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/posts/</link>
         <description>All Posts | arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 21 Oct 2022 03:59:47 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Oct 2022 17:56:19 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - mermaid Shortcode</title>
     <link>http://arifsatuan.github.io/theme-documentation-mermaid-shortcode/</link>
     <pubDate>Tue, 03 Mar 2020 15:29:41 &#43;0800</pubDate>
@@ -47,6 +47,14 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Fisika 12 - Medan Magnet 2</title>
+    <link>http://arifsatuan.github.io/fisika-12-medan-magnet-2/</link>
+    <pubDate>Sun, 23 Oct 2022 17:56:19 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/fisika-12-medan-magnet-2/</guid>
+    <description><![CDATA[1. Gaya Lorentz Gaya Lorentz merupakan gaya yang timbul akibat adanya arus listrik dalam suatu medan magnet. Jadi, jika kita memiliki suatu benda konduktor yang berada di dalam medan magnet, kemudian kita aliri benda tersebut dengan arus listrik, maka akan timbul suatu gaya yang mampu menggerakkan benda tersebut. Perhatikan aturan tangan kenan berikut Aturan tangan kanan (3D) terbuka ihoho]]></description>
+</item>
+<item>
     <title>Fisika 10 - Hakikat Fisika</title>
     <link>http://arifsatuan.github.io/fisika-10-hakikat-fisika/</link>
     <pubDate>Fri, 21 Oct 2022 03:59:47 &#43;0700</pubDate>
@@ -79,15 +87,6 @@
     <description><![CDATA[Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
 1. sum, average, max, min Rumus ini merupakan rumus paling dasar dalam pengelolaan data menggunakan Microsoft Excel - Spreadsheets
 1 2 3 4 =SUM(CELLYANGDIJUMLAH) , contoh =SUM(A1:B8) =AVERAGE(rentang rata-rata) , contoh =AVERAGE(A1:B8) =MAX(rentang dicari maksimal), contoh =MAX(A1:B8) =MIN(rentang dicari minimal), contoh =MIN(A1:B8) rumus atau formula dasar sum, average 2.]]></description>
-</item>
-<item>
-    <title>Shortcut Favorit Windows</title>
-    <link>http://arifsatuan.github.io/shortcut-windows/</link>
-    <pubDate>Sat, 15 Oct 2022 19:23:54 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
-    <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
-1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows NoShortcutFungsi1<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File)2<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize3<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah4<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows5<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan6<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri7<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
 </item>
 </channel>
 </rss>
