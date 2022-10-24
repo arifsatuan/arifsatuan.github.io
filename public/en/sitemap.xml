@@ -39,7 +39,7 @@
     
   <url>
     <loc>http://arifsatuan.github.io/</loc>
-    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
+    <lastmod>2022-10-23T17:56:19+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -56,7 +56,7 @@
     
   <url>
     <loc>http://arifsatuan.github.io/categories/</loc>
-    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
+    <lastmod>2022-10-23T17:56:19+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -73,20 +73,27 @@
     
   <url>
     <loc>http://arifsatuan.github.io/categories/fisika/</loc>
-    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
+    <lastmod>2022-10-23T17:56:19+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
-    <loc>http://arifsatuan.github.io/fisika-10-hakikat-fisika/</loc>
-    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
+    <loc>http://arifsatuan.github.io/fisika-12-medan-magnet-2/</loc>
+    <lastmod>2022-10-23T17:56:19+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
     <loc>http://arifsatuan.github.io/posts/</loc>
+    <lastmod>2022-10-23T17:56:19+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/fisika-10-hakikat-fisika/</loc>
     <lastmod>2022-10-21T03:59:47+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
