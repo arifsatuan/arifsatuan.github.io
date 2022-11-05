@@ -78,5 +78,77 @@ draft: false
             <button type="button" class="btn btn-primary " id="cpbujur" onclick="copy('rumus8')">Copy</button>
     </div>
     </div>
+<script>
+function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+  if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
+  {
+    //return 'iOS';
+    console.log("iphone");
+  }
+  else if( userAgent.match( /Android/i ) )
+  {
+    //return 'Android';
+    console.log("Android");
+  }
+  else
+  {
+
+    console.log("computer");
+    //return 'unknown'; 
+  // alert("gunakan smartphone");
+   //document.getElementById("all").style.display = "none";
+   //document.getElementById("all").style.visibility = "collapse";
+  // document.getElementById("alert").style.visibility = "visible";
+  }
+}
+
+getMobileOperatingSystem();
+
+   
+var x = document.getElementById("lintang");
+var y = document.getElementById("bujur");
+ 
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.value =  position.coords.latitude;
+  y.value=position.coords.longitude;
+  document.getElementById("cekmap").style.visibility = "visible";
+  document.getElementById("cekmap").href = "https://www.google.com/maps/search/?api=1&query="+x.value+","+y.value;
+}
+
+
+function copy(id) {
+    var id;
+  var copyText = document.getElementById(id);
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+   navigator.clipboard.writeText(copyText.value);
+}
+
+</script>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
 {{< /rawhtml >}}
