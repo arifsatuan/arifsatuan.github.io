@@ -28,15 +28,12 @@ Login dan tambahkan key SSH ke github ke [https://github.com/settings/keys](http
 
 Dapatkan key SSH dari poin 2 dan 3 di atas dengan 
 ```bash
-cat ~/.ssh/id_ed25519                                          
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAA
-AAEbm9uBBBBBBBBBBBBBBBBBSADASASA
-AANNN... seterusnya==
------END OPENSSH PRIVATE KEY-----
+cat ~/.ssh/id_ed25519.pub 
 ```
+![sshkey ](terminal2-s.png "Mendapatkan Public Key")
+
 Copy paste ke kolom berikut, Klik Add SSH Key 
-![sshkey ](addkey.png-sdw.png "Add Key")
+![sshkey ](tambahkey-s.png "Add Key")
 
 ## 2. Clone GIT dari repository
 Cara clone git tergantung jenis repositorynya. Jika memiliki beberapa branch pastikan setiap branch juga diclone
