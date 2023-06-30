@@ -57,7 +57,7 @@ Berikut adalah daftar service yang aman untuk di _disable_
 {{< /admonition >}}
 
 ### 3. Disable telemetry
-Disable telemetry sepertinya cukup rumit, oleh karena itu bisa dengan menjalankan script dengan [download di sini](https://sman81jkt.sch.id/wp-content/uploads/TOOLS-W10.iso)
+Disable telemetry sepertinya cukup rumit, oleh karena itu bisa dengan menjalankan script dengan [download di sini](https://sman81.sch.id/wp-content/uploads/TOOLS-W10.iso)
 Setelah didownload, buka dengan klik 2 kali sehingga muncul
 ![drive iso](drive.png "Tampil di drive E:")
 Catat nama drivenya `E:` untuk perintah berikutnya. Kemudian buka `powershell` dengan cara klik tombol:
