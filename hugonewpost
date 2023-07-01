@@ -14,4 +14,4 @@ sed -i '8 i    src: "featured-image.jpg"' content/posts/$judul/index.md
 sed -i '9 i tags: ["", ""]' content/posts/$judul/index.md
 sed -i '10 i categories: [""]' content/posts/$judul/index.md
 #sed -i '11 i ---' content/posts/$judul/index.md
-vim content/posts/$judul/index.md
+#vim content/posts/$judul/index.md
