@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>php - Tag - arifsatuan</title>
+        <link>http://arifsatuan.github.io/tags/php/</link>
+        <description>php - Tag - arifsatuan</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/php/" rel="self" type="application/rss+xml" /><item>
+    <title>Ajax pada PHP Codeigniter</title>
+    <link>http://arifsatuan.github.io/php-dan-ajax/</link>
+    <pubDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/php-dan-ajax/</guid>
+    <description><![CDATA[Saat menggunakan ajax jquery pastikan beberapa
+controler respon (JSON) jquery telah diload &lt;script src=&quot;&quot;&gt; membuat form yang sesuai 1. Membuat database 2. Membuat controller dan model Controller yang akan dibuat ada 2 (1. default view, 2. Merespon ajax)
+3. Membuat view Berikut minimal form
+1 2 3 4 5 6 7 8 &lt;form id=&#34;myForm&#34;&gt; &lt;label for=&#34;nama&#34;&gt;Nama:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;nama&#34; name=&#34;nama&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;label for=&#34;kode&#34;&gt;Kode:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;kode&#34; name=&#34;kode&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;button type=&#34;button&#34; id=&#34;submitButton&#34;&gt;Submit&lt;/button&gt; &lt;/form&gt; &lt;div id=&#34;result&#34;&gt;&lt;/div&gt; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 $(document).]]></description>
+</item>
+</channel>
+</rss>

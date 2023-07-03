@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/posts/</link>
         <description>All Posts | arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - mermaid Shortcode</title>
     <link>http://arifsatuan.github.io/theme-documentation-mermaid-shortcode/</link>
     <pubDate>Tue, 03 Mar 2020 15:29:41 &#43;0800</pubDate>
@@ -47,6 +47,25 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
+    <title>Faster Boot Linux</title>
+    <link>http://arifsatuan.github.io/faster-boot-linux/</link>
+    <pubDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/faster-boot-linux/</guid>
+    <description><![CDATA[Faster Boot Linux]]></description>
+</item>
+<item>
+    <title>Ajax pada PHP Codeigniter</title>
+    <link>http://arifsatuan.github.io/php-dan-ajax/</link>
+    <pubDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/php-dan-ajax/</guid>
+    <description><![CDATA[Saat menggunakan ajax jquery pastikan beberapa
+controler respon (JSON) jquery telah diload &lt;script src=&quot;&quot;&gt; membuat form yang sesuai 1. Membuat database 2. Membuat controller dan model Controller yang akan dibuat ada 2 (1. default view, 2. Merespon ajax)
+3. Membuat view Berikut minimal form
+1 2 3 4 5 6 7 8 &lt;form id=&#34;myForm&#34;&gt; &lt;label for=&#34;nama&#34;&gt;Nama:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;nama&#34; name=&#34;nama&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;label for=&#34;kode&#34;&gt;Kode:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;kode&#34; name=&#34;kode&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;button type=&#34;button&#34; id=&#34;submitButton&#34;&gt;Submit&lt;/button&gt; &lt;/form&gt; &lt;div id=&#34;result&#34;&gt;&lt;/div&gt; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 $(document).]]></description>
+</item>
+<item>
     <title>Tips Mempercepat Windows</title>
     <link>http://arifsatuan.github.io/tips-mempercepatan-windows/</link>
     <pubDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</pubDate>
@@ -72,25 +91,6 @@
     <guid>http://arifsatuan.github.io/shortcut-windows/</guid>
     <description><![CDATA[Shortcut sesuai dengan namanya membuat hidup kita lebih mudah. Berikut shortcut yang dikompilasi sering digunakan pada umumnya
 1. Kelompok Ctrl No Shortcut Fungsi 1 Ctrl + C Copy teks yang sedang dipilih (selected) 2 Ctrl + A Memilih semua teks yang sedang tampil 3 Ctrl + V Paste / menempelkan teks yang sudah dicopy sebelumnya 4 Ctrl + X Cut atau memotong teks untuk selanjutnya dipaste 2. Kombinasi tombol Windows NoShortcutFungsi1<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ E Membuka Windows Explorer (File)2<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ D Menampilkan desktop sekaligus minimize3<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ R Menjalankan (run) program tertentu, lebih lengkapnya di bawah4<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ I Membuka fitur Setting pada windows5<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ → Menggeser window (aplikasi) menjadi setengah di kanan6<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ← Menggeser window (aplikasi) menjadi setengah di kiri7<i class="fa-brands fa-windows" aria-hidden="true"></i>&nbsp;+ ↑ Menggeser window (aplikasi) menjadi setengah di atas 3.]]></description>
-</item>
-<item>
-    <title>Mailmerge Eksport Ke PDF</title>
-    <link>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</link>
-    <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/mailmerge-eksport-ke-pdf/</guid>
-    <description><![CDATA[1. Membuat Dokumen Template Langkah pertama adalah membuat dokumen template dengan membuat dua buah dokumen yakni word dan excel
-rapor.docm (documen dengan makro) data.xlsx contoh template word menyimpan file versi .docm 2. Siapkan data Langkah selanjutnya adalah menyiapkan data sesuai dengan kolom pada tabel yang akan diisi. Bisa juga sebaliknya, sesuaikan template dengan kolom data yang akan ditampilkan. tampilan data di sheet nilai Simpan data dalam folder yang sama agar memudahkan mencarinya.]]></description>
-</item>
-<item>
-    <title>Hapus Duplicate Entry GoogleForms</title>
-    <link>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</link>
-    <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/hapus-duplicate-entry-googleforms/</guid>
-    <description><![CDATA[Penggunaan Google Forms memudahkan kita dalam mengumpulkan data dengan cepat. Ada kalanya input data perlu diperbaiki, salah satunya karena input double.
-0. Pendahuluan Saya pribadi sering berkomentar &quot;Silakan input lagi, nanti yang awal saya hapus&quot;. Pada praktiknya berat sekali untuk mengecek input yang terduplikasi, apalagi harus menghapus secara manual. Oleh karena itu iseng membuat script otomatis untuk melakukan hal tersebut.
-1. Membuat spreadsheets Langkah awal, buat script di google spreadsheets, bisa dilihat di sini.]]></description>
 </item>
 </channel>
 </rss>
