@@ -884,7 +884,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         rss = 10
         [languages.zh-cn.params.home.profile]
           enable = true
-          gravatarEmail = ""
+          gravatarEmail = "" 
           avatarURL = "/images/avatar.png"
           title = ""
           subtitle = "一个简洁、优雅且高效的 Hugo 主题"
