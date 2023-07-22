@@ -4,7 +4,17 @@
         <link>http://arifsatuan.github.io/categories/php/</link>
         <description>php - Category - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/php/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 22 Jul 2023 11:22:50 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/categories/php/" rel="self" type="application/rss+xml" /><item>
+    <title>Custom Nama Lengkap PHP dan Javascript</title>
+    <link>http://arifsatuan.github.io/custom-nama-lengkap/</link>
+    <pubDate>Sat, 22 Jul 2023 11:22:50 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/custom-nama-lengkap/</guid>
+    <description><![CDATA[Penggunaan nama lengkap di Indonesia pada beberapa keadaan mungkin akan sangat merepotkan. Misalkan saat membuat nama pada sertifikat atau kartu anggota dengan space yang terbatas.
+Apabila ditampilkan secara dinamis menggunakan PHP atau javascript, hal ini bisa diatasi dengan elegan. Alur logika yang bisa dipahami kurang lebih seperti ini
+Menghitung jumlah karakter yang dibutuhkan Apabila jumlah kata pertama dan kedua lebih dari ketetapan, cukup kata pertama dan initial di kata kedua Mulai dengan PHP, dengan variabel nama $name]]></description>
+</item>
+<item>
     <title>Ajax pada PHP Codeigniter</title>
     <link>http://arifsatuan.github.io/php-dan-ajax/</link>
     <pubDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</pubDate>
