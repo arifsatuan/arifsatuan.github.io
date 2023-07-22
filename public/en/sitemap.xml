@@ -55,7 +55,38 @@
   </url>
     
   <url>
+    <loc>http://arifsatuan.github.io/categories/</loc>
+    <lastmod>2023-07-03T09:50:09+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://arifsatuan.github.io/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://arifsatuan.github.io/categories/"
+                />
+  </url>
+    
+  <url>
     <loc>http://arifsatuan.github.io/faster-boot-linux/</loc>
+    <lastmod>2023-07-03T09:50:09+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/tags/linux/</loc>
+    <lastmod>2023-07-03T09:50:09+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/categories/linux/</loc>
     <lastmod>2023-07-03T09:50:09+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -69,27 +100,34 @@
   </url>
     
   <url>
-    <loc>http://arifsatuan.github.io/php-dan-ajax/</loc>
-    <lastmod>2023-07-01T11:51:52+07:00</lastmod>
+    <loc>http://arifsatuan.github.io/tags/script/</loc>
+    <lastmod>2023-07-03T09:50:09+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
     
   <url>
-    <loc>http://arifsatuan.github.io/categories/</loc>
-    <lastmod>2023-07-01T11:51:52+07:00</lastmod>
+    <loc>http://arifsatuan.github.io/tags/</loc>
+    <lastmod>2023-07-03T09:50:09+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://arifsatuan.github.io/zh-cn/categories/"
+                href="http://arifsatuan.github.io/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://arifsatuan.github.io/categories/"
+                href="http://arifsatuan.github.io/tags/"
                 />
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/php-dan-ajax/</loc>
+    <lastmod>2023-07-01T11:51:52+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
     
   <url>
@@ -111,23 +149,6 @@
     <lastmod>2023-07-01T11:51:52+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>http://arifsatuan.github.io/tags/</loc>
-    <lastmod>2023-07-01T11:51:52+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://arifsatuan.github.io/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://arifsatuan.github.io/tags/"
-                />
   </url>
     
   <url>
@@ -229,13 +250,6 @@
   </url>
     
   <url>
-    <loc>http://arifsatuan.github.io/tags/script/</loc>
-    <lastmod>2022-10-15T13:15:20+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
     <loc>http://arifsatuan.github.io/tags/googleforms/</loc>
     <lastmod>2022-10-11T13:20:12+07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -266,13 +280,6 @@
   <url>
     <loc>http://arifsatuan.github.io/tags/sheets/</loc>
     <lastmod>2022-10-09T20:36:01+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-    
-  <url>
-    <loc>http://arifsatuan.github.io/categories/linux/</loc>
-    <lastmod>2022-10-09T20:01:26+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

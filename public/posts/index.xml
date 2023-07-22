@@ -52,7 +52,9 @@
     <pubDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</pubDate>
     <author>arif</author>
     <guid>http://arifsatuan.github.io/faster-boot-linux/</guid>
-    <description><![CDATA[Faster Boot Linux]]></description>
+    <description><![CDATA[1. Check speed of loading Just type on your favourite terminal to get know your
+1 systemd-analyze Initial speed of booting As you can see above, full time to booting is 59,301s with specific below
+no Term time (s) description 1. Firmware 8,998s speed when booting (BIOS) 2. Loader 9,269s loader I don&rsquo;t know 3. Kernel 17,224s time when loading initramfs that compressed 4. Userspace 23,810s time starting app 2. Know which suspect Know which the suspect to be blaming to we can type on terminal like below:]]></description>
 </item>
 <item>
     <title>Ajax pada PHP Codeigniter</title>

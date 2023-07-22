@@ -4,7 +4,23 @@
         <link>http://arifsatuan.github.io/tags/</link>
         <description>Tags - Tag - arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>linux</title>
+    <link>http://arifsatuan.github.io/tags/linux/</link>
+    <pubDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>script</title>
+    <link>http://arifsatuan.github.io/tags/script/</link>
+    <pubDate>Mon, 03 Jul 2023 09:50:09 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/tags/script/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>javascript</title>
     <link>http://arifsatuan.github.io/tags/javascript/</link>
     <pubDate>Sat, 01 Jul 2023 11:51:52 &#43;0700</pubDate>
@@ -53,14 +69,6 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>script</title>
-    <link>http://arifsatuan.github.io/tags/script/</link>
-    <pubDate>Sat, 15 Oct 2022 13:15:20 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/tags/script/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>googleforms</title>
     <link>http://arifsatuan.github.io/tags/googleforms/</link>
     <pubDate>Tue, 11 Oct 2022 13:20:12 &#43;0700</pubDate>
@@ -74,14 +82,6 @@
     <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
     <author>arif</author>
     <guid>http://arifsatuan.github.io/tags/forms/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>sheets</title>
-    <link>http://arifsatuan.github.io/tags/sheets/</link>
-    <pubDate>Sun, 09 Oct 2022 20:36:01 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/tags/sheets/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

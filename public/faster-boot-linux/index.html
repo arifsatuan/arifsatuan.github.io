@@ -36,7 +36,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/arifsatuan.github.io\/faster-boot-linux\/"
-        },"image": ["http:\/\/arifsatuan.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": ", ","wordcount":  0 ,
+        },"image": ["http:\/\/arifsatuan.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "linux, script","wordcount":  287 ,
         "url": "http:\/\/arifsatuan.github.io\/faster-boot-linux\/","datePublished": "2023-07-03T09:50:09+07:00","dateModified": "2023-07-03T09:50:09+07:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -120,16 +120,188 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Faster Boot Linux</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-category">included in <a href="/categories/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Categories</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-03">2023-07-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>linux</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-03">2023-07-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;287 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-check-speed-of-loading">1. Check speed of loading</a></li>
+        <li><a href="#2-know-which-suspect">2. Know which suspect</a></li>
+        <li><a href="#3-reduce-it">3. Reduce it!</a></li>
+        <li><a href="#4-change-compression">4. Change compression</a></li>
+        <li><a href="#5-check-result">5. Check Result</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h3 id="1-check-speed-of-loading">1. Check speed of loading</h3>
+<p>Just type on your favourite terminal to get know your</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemd-analyze
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure><a class="lightgallery" href="/faster-boot-linux/fastinitial.png" title="Tampilan Hugo" data-thumbnail="/faster-boot-linux/fastinitial.png" data-sub-html="<h2>Initial speed of booting</h2><p>Tampilan Hugo</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/faster-boot-linux/fastinitial.png"
+            data-srcset="/faster-boot-linux/fastinitial.png, /faster-boot-linux/fastinitial.png 1.5x, /faster-boot-linux/fastinitial.png 2x"
+            data-sizes="auto"
+            alt="/faster-boot-linux/fastinitial.png" width="652" height="465" />
+    </a><figcaption class="image-caption">Initial speed of booting</figcaption>
+    </figure></p>
+<p>As you can see above, full time to booting is <code>59,301s</code> with specific below</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>Term</th>
+<th>time (s)</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td><strong>Firmware</strong></td>
+<td><code>8,998s</code></td>
+<td>speed when booting (BIOS)</td>
+</tr>
+<tr>
+<td>2.</td>
+<td><strong>Loader</strong></td>
+<td><code>9,269s</code></td>
+<td>loader I don&rsquo;t know</td>
+</tr>
+<tr>
+<td>3.</td>
+<td><strong>Kernel</strong></td>
+<td><code>17,224s</code></td>
+<td>time when loading initramfs that compressed</td>
+</tr>
+<tr>
+<td>4.</td>
+<td><strong>Userspace</strong></td>
+<td><code>23,810s</code></td>
+<td>time starting app</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-know-which-suspect">2. Know which suspect</h3>
+<p>Know which the suspect to be <em>blaming to</em> we can type on terminal like below:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">systemd-analyze blame
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Resulting</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">6.681s NetworkManager-wait-online.service
+</span></span><span class="line"><span class="cl">5.051s bolt.service
+</span></span><span class="line"><span class="cl">2.954s systemd-udev-settle.service
+</span></span><span class="line"><span class="cl">1.917s blueman-mechanism.service
+</span></span><span class="line"><span class="cl">1.680s mariadb.service
+</span></span><span class="line"><span class="cl">1.238s networkd-dispatcher.service
+</span></span><span class="line"><span class="cl"> 950ms udisks2.service
+</span></span><span class="line"><span class="cl"> 948ms apache2.service
+</span></span><span class="line"><span class="cl"> 885ms accounts-daemon.service
+</span></span><span class="line"><span class="cl"> 749ms ModemManager.service
+</span></span><span class="line"><span class="cl"> 683ms dev-sda6.device
+</span></span><span class="line"><span class="cl"> 446ms cups.service
+</span></span><span class="line"><span class="cl"> 423ms user@1000.service
+</span></span><span class="line"><span class="cl"> 407ms ubuntu-system-adjustments.service
+</span></span><span class="line"><span class="cl"> 402ms gdm.service
+</span></span><span class="line"><span class="cl"> 378ms power-profiles-daemon.service
+</span></span><span class="line"><span class="cl"> 370ms polkit.service
+</span></span><span class="line"><span class="cl"> 364ms avahi-daemon.service
+</span></span><span class="line"><span class="cl"> 363ms bluetooth.service
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Look above, <code>NetworkManager-wait-online.service</code> took 6,6s then <code>bolt.service</code> took 5s. It may vary depend on your system.</p>
+<h3 id="3-reduce-it">3. Reduce it!</h3>
+<p>To reduce this to boot on initial, can just <strong>mask</strong> using <code>systemctl</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl mask NetworkManager-wait-online.service
+</span></span><span class="line"><span class="cl">sudo systemctl mask bolt.service
+</span></span><span class="line"><span class="cl">etc . . .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4-change-compression">4. Change compression</h3>
+<p>By changing the compression algorithm, we can save some time as some algorithms are faster to decompress the data. I’ve found that lz4 is the fastest for my case. It may vary for your CPU. The image is 6.6MB now, but it decompresses a lot faster.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo vi /etc/initramfs-tools/initramfs.conf
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">MODULES</span><span class="o">=</span>dep
+</span></span><span class="line"><span class="cl"><span class="nv">COMPRESS</span><span class="o">=</span>lz4
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ sudo update-initramfs -u
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="5-check-result">5. Check Result</h3>
+<p>After two treatments above, we can repeat <code>systemd-analyze</code> again.
+<figure><a class="lightgallery" href="/faster-boot-linux/faster.png" title="Faster after tweak" data-thumbnail="/faster-boot-linux/faster.png" data-sub-html="<h2>Faster after tweak</h2><p>Faster after tweak</p>">
+        <img
+            class="lazyload"
+            src="/svg/loading.min.svg"
+            data-src="/faster-boot-linux/faster.png"
+            data-srcset="/faster-boot-linux/faster.png, /faster-boot-linux/faster.png 1.5x, /faster-boot-linux/faster.png 2x"
+            data-sizes="auto"
+            alt="/faster-boot-linux/faster.png" width="652" height="465" />
+    </a><figcaption class="image-caption">Faster after tweak</figcaption>
+    </figure></p>
+<p>Horay!!! That is great improvement. From total <code>59 s</code> to <code>26 s</code></p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -140,13 +312,13 @@
                             <a class="link-to-markdown" href="/faster-boot-linux/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux" data-via="ariptok" data-hashtags=","><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-hashtag=""><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux" data-via="ariptok" data-hashtags="linux,script"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-hashtag="linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://arifsatuan.github.io/faster-boot-linux/" data-title="Faster Boot Linux"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/">Tags</a>,&nbsp;<a href="/tags/">Tags</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/linux/">linux</a>,&nbsp;<a href="/tags/script/">script</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
