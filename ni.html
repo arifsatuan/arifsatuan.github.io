@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathJax Function Calculator</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h3>Nyari Ni</h3>
+
+    <!-- Display the equation using MathJax -->
+    <div class="mt-3">
+      <p>The equation is: \(N_i = 10^{(a - \log(b \ln 10) - \log(\Delta t) - bMw)}\)</p>
+    </div>
+
+
+      <div class="form-group">
+        <label for="a">Value of \(a\):</label>
+        <input type="number" class="form-control" id="a" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="b">Value of \(b\):</label>
+        <input type="number" class="form-control" id="b" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="t">Value of \(t\):</label>
+        <input type="number" class="form-control" id="t" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="M">Value of \(M\):</label>
+        <input type="number" class="form-control" id="M" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="w">Value of \(w\):</label>
+        <input type="number" class="form-control" id="w" step="0.01" required>
+      </div>
+      <button type="submit" class="btn btn-primary" onClick="hitung()">Calculate</button>
+   
+    <div class="mt-3">
+      <p>The result is: <span id="result"></span></p>
+    </div>
+  </div>
+
+  <!-- Add MathJax script for rendering math expressions -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <script>
+    // Function to calculate the result
+    function cariNi(a, b, t, M, w) {
+      var Ni = 10 ** (a - Math.log10(b * Math.log(10)) - Math.log10(t) - b * M * w);
+      return Ni;
+    }
+    function hitung(){
+    // Function to handle form submission
+         // Get input values
+      var a = parseFloat(document.getElementById('a').value);
+      var b = parseFloat(document.getElementById('b').value);
+      var t = parseFloat(document.getElementById('t').value);
+      var M = parseFloat(document.getElementById('M').value);
+      var w = parseFloat(document.getElementById('w').value);
+
+      // Calculate result
+      var result = cariNi(a, b, t, M, w);
+        console.log(result);
+
+      // Display result using MathJax
+      document.getElementById('result').innerHTML = "N<sub>i</sub> = " + result.toExponential(2);
+     
+    }
+  </script>
+
+</body>
+
+</html>
+
