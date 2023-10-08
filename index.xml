@@ -56,7 +56,7 @@
     <guid>http://arifsatuan.github.io/gitclone_succeeded_but_checkout_failed/</guid>
     <description><![CDATA[Git is very handy tools for programmers. But, unfortunatelly there are some mistakes or issues when using it. Personally, I can&rsquo;t recall problems that I have facing.
 Today I have problem that I can clone but checkout failed, just shown at picture below Solution for that is very easy. Add command like below
-1 git clone -b main -c core.protectNTFS=false LINK OF GITHUB ]]></description>
+1 git clone -b main -c core.protectNTFS=false LINK OF GITHUB Shown like below: ]]></description>
 </item>
 <item>
     <title>Custom Nama Lengkap PHP dan Javascript</title>
