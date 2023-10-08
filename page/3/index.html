@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.115.0">
+	<meta name="generator" content="Hugo 0.119.0">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -112,6 +112,21 @@
         alt="/images/avatar.png"
         title="/images/avatar.png" width="373" height="373" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div><div class="links"><a href="https://github.com/arifsatuan" title="GitHub" target="_blank" rel="noopener noreffer me"><i class="fab fa-github fa-fw" aria-hidden="true"></i></a><a href="https://twitter.com/ariptok" title="Twitter" target="_blank" rel="noopener noreffer me"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="https://www.instagram.com/pakarifsatuan" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/catatan-git/">Catatan GitHub</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-09">2022-10-09</time></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>linux</a></span></div><div class="content">1. Koneksi dengan SSH Penggunaan github menggunakan akun (https) sudah tidak didukung saat ini. Oleh karena itu pengguna beralih menggunakan SSH. Langkah lengkap bisa dicek di sini
+1.1 Membuat key SSH 1 $ ssh-keygen -t ed25519 -C &#34;your_email@example.com&#34; 1.2 Simpan SSH Key Jika ada keterangan seperti berikut, tekan enter saja berulang Promt Penamaan Key SSH Isikan password jika ditawarkan seperti berikut
+1 2 &gt; Enter passphrase (empty for no passphrase): [Type a passphrase] &gt; Enter same passphrase again: [Type passphrase again] 1.</div><div class="post-footer">
+        <a href="/catatan-git/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/notes/">notes</a>,&nbsp;<a href="/tags/git/">git</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/first_post/">Cara Membuat Website Hugo</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-06">2022-10-06</time></span></div><div class="content">Persiapan Membuat website menggunakan Hugo wajib bisa menggunakan terminal. Bisa juga pelajari dan install chocolatey. Jika chocolatey sudah terinstall, buka terminal dalam mode administrator lalu ketik berikut
+1 choco install hugo-extended atau bagi pengguna linux bisa download di github.com/gohugo/hugo lalu download release dengan nama hugo_extended_0.104.3_linux-amd64.deb. Setelah didownload, masuk ke folder tempat download lalu perintahkan
+1 sudo dpkg -i hugo_extended_0.104.3_linux-amd64.deb Pastikan bahwa hugo telah terinstall
+1 hugo version Membuat Website Pertama Misalkan website pertama kita adalah catatan, maka buat perintah</div><div class="post-footer">
+        <a href="/first_post/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/notes/">notes</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/catatan_projek/">Catatan projek</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-04">2022-10-04</time></span></div><div class="content">List yang dikumpulkan Pada pelaporan projek, hal yang perlu dipersiapkan
 Wajib mengumpulkan dokumentasi per kelompok di google drive Dokumentasi minimal 5 dengan nama file yang deskriptif, misal : Kegiatan menentukan tempat pelaksanaan.jpg contoh rename gambar Struktur folder harus terisi seperti berikut 1 2 3 4 5 6 7 8 9 10 11 12 13 14 ├── 10-1 │ ├── Dok_persiapan │ │ ├──gambar1.jpg │ │ ├──gambar2.jpg │ │ ├── . .</div><div class="post-footer">
@@ -137,20 +152,6 @@ Folder kosong di google drive Pada alamat google drive, ada bagian yang menunjuk
 1 https://drive.google.com/drive/folders/1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l Perhatikan 1NLGj1fbN7Gl2Fp1qVqxoC8OnURxlFl1l adalah folder Id. Kemudian buat script baru dengan klik New di google drive -&gt; more -&gt; Google Appscript Membuat Script baru Script yang diisikan berupa list atau array dengan nama NIS, bisa disesuaikan dengan kebutuhan.</div><div class="post-footer">
         <a href="/script_folder/">Read More</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/notes/">notes</a>,&nbsp;<a href="/tags/googlescript/">googlescript</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/script_gdrive/">Membaca Folder Google Drive Otomatis</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-02">2022-10-02</time></span>&nbsp;<span class="post-category">included in <a href="/categories/office-google/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>office-google</a></span></div><div class="content">Catatan kali ini diinspirasi dari &ldquo;kemalasan&rdquo; untuk tiap folder di google drive. Ceritanya sedang membuat folder yang diisi bersama, namun perlu dikonfirmasi siapa saja yang sudah dan siapa saja yang belum. Jika hanya kurang dari 10 tentu tidak masalah, lain halnya jika banyak folder yang harus dicek.
-Membuat Folder Gdrive Langkah pertama tentu saja membuat folder utama gdrive dan catat ID folder. Misal kita buat folder dengan nama MainFolder dan berisi subfolder seperti berikut Daftar Folder yang akan dibaca Dimana nanti akhirnya kita ingin setiap subfolder diisi/diupload penanggungjawabnya seperti subfolder3 dan subfolder4</div><div class="post-footer">
-        <a href="/script_gdrive/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/notes/">notes</a>,&nbsp;<a href="/tags/googlescript/">googlescript</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/hello/">Hello World</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>arif</a></span>&nbsp;<span class="post-publish">published on <time datetime="2022-10-02">2022-10-02</time></span></div><div class="content">Membuat blog menggunakan HUGO membutuhkan waktu lama dan menguras banyak tenaga di awal. Tentu saja karena bahasa Go yang masih terbilang kurang familiar. Justru ini tantangan, pantang untuk mundur. Toh dari lahir manusia sudah didesain mampu menghadapi kesulitan.
-&ldquo;walaupun sulit, besok juga sulit, kenapa tidak bersenang senang dengan kesulitan sekarang&rdquo;
-Kedepannya, blog ini semoga konsisten sebagai catatan dan dokumentasi kegiatan sehari-hari.
-Sebagai bukti bahwa blog ini sebagai dokumentasi, ingatlah perintah ini</div><div class="post-footer">
-        <a href="/hello/">Read More</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/notes/">notes</a>,&nbsp;<a href="/tags/git/">git</a></div></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/">1</a>
@@ -167,9 +168,13 @@ Sebagai bukti bahwa blog ini sebagai dokumentasi, ingatlah perintah ini</div><di
                     <span class="page-link">
                         <a href="/page/4/">4</a>
                     </span>
+                </li><li class="page-item ">
+                    <span class="page-link">
+                        <a href="/page/5/">5</a>
+                    </span>
                 </li></ul></div></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.115.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.119.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">arif</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
