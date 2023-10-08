@@ -20,3 +20,6 @@ Add command like below
 ```
 git clone -b main -c core.protectNTFS=false  LINK OF GITHUB
 ```
+
+Shown like below:
+![Error not checkout](solution.png)
