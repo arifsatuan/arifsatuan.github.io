@@ -4,7 +4,7 @@
         <link>http://arifsatuan.github.io/posts/</link>
         <description>All Posts | arifsatuan</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arif.stwan@gmail.com (arif)</managingEditor>
-            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Oct 2023 10:41:05 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arif.stwan@gmail.com (arif)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 22 Jul 2023 11:22:50 &#43;0700</lastBuildDate><atom:link href="http://arifsatuan.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - mermaid Shortcode</title>
     <link>http://arifsatuan.github.io/theme-documentation-mermaid-shortcode/</link>
     <pubDate>Tue, 03 Mar 2020 15:29:41 &#43;0800</pubDate>
@@ -47,24 +47,6 @@
     <description><![CDATA[<p>The <code>typeit</code> shortcode provides typing animation based on <a href="https://typeitjs.com/" target="_blank" rel="noopener noreffer ">TypeIt</a> library.</p>]]></description>
 </item>
 <item>
-    <title>Git:Clone Succeeded, but checkout failed</title>
-    <link>http://arifsatuan.github.io/gitclone_succeeded_but_checkout_failed/</link>
-    <pubDate>Sun, 08 Oct 2023 10:41:05 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/gitclone_succeeded_but_checkout_failed/</guid>
-    <description><![CDATA[Git is very handy tools for programmers. But, unfortunatelly there are some mistakes or issues when using it. Personally, I can&rsquo;t recall problems that I have facing.
-Today I have problem that I can clone but checkout failed, just shown at picture below ]]></description>
-</item>
-<item>
-    <title>Git: clone succeeded, but checkout failed</title>
-    <link>http://arifsatuan.github.io/git_clone_succeeded_but_checkout_failed/</link>
-    <pubDate>Sun, 08 Oct 2023 09:06:10 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/git_clone_succeeded_but_checkout_failed/</guid>
-    <description><![CDATA[Git is very handy tools for programmers. But, unfortunatelly there are some mistakes or issues when using it. Personally, I can&rsquo;t recall problems that I have facing.
-Today I have problem that I can clone but checkout failed, just shown at picture below ]]></description>
-</item>
-<item>
     <title>Custom Nama Lengkap PHP dan Javascript</title>
     <link>http://arifsatuan.github.io/custom-nama-lengkap/</link>
     <pubDate>Sat, 22 Jul 2023 11:22:50 &#43;0700</pubDate>
@@ -94,6 +76,24 @@ no Term time (s) description 1. Firmware 8,998s speed when booting (BIOS) 2. Loa
 controler respon (JSON) jquery telah diload &lt;script src=&quot;&quot;&gt; membuat form yang sesuai 1. Membuat database 2. Membuat controller dan model Controller yang akan dibuat ada 2 (1. default view, 2. Merespon ajax)
 3. Membuat view Berikut minimal form
 1 2 3 4 5 6 7 8 &lt;form id=&#34;myForm&#34;&gt; &lt;label for=&#34;nama&#34;&gt;Nama:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;nama&#34; name=&#34;nama&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;label for=&#34;kode&#34;&gt;Kode:&lt;/label&gt; &lt;input type=&#34;text&#34; id=&#34;kode&#34; name=&#34;kode&#34;&gt;&lt;br&gt;&lt;br&gt; &lt;button type=&#34;button&#34; id=&#34;submitButton&#34;&gt;Submit&lt;/button&gt; &lt;/form&gt; &lt;div id=&#34;result&#34;&gt;&lt;/div&gt; 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 $(document).]]></description>
+</item>
+<item>
+    <title>Tips Mempercepat Windows</title>
+    <link>http://arifsatuan.github.io/tips-mempercepatan-windows/</link>
+    <pubDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/tips-mempercepatan-windows/</guid>
+    <description><![CDATA[Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut Windows Share terbesar Bagi pemilik komputer atau laptop dengan kategori high-end tentu saja windows 10 cukup nyaman untuk digunakan sehari-hari. Lain halnya dengan perangkat yang memiliki processor hemat (daya maupun harga), maupun perangkat yang sudah lama. Keluhan seperti lemot, cepat panas, dan lain-lain tentu saja membuat tidak nyaman. Berikut tips optimasi windows yang bisa dilakukan]]></description>
+</item>
+<item>
+    <title>Rumus Dasar Excel Spreadsheets</title>
+    <link>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</link>
+    <pubDate>Sun, 16 Oct 2022 06:13:31 &#43;0700</pubDate>
+    <author>arif</author>
+    <guid>http://arifsatuan.github.io/rumus-dasar-excel-spreadsheets/</guid>
+    <description><![CDATA[Banyak sekali fitur dan formula atau rumus pada Microsoft Excel, namun dalam tulisan kali ini akan dipilih rumus yang paling sering digunakan. Sebagai informasi bahwa sebagian besar rumus ini berlaku juga di Google Spreadsheets
+1. sum, average, max, min Rumus ini merupakan rumus paling dasar dalam pengelolaan data menggunakan Microsoft Excel - Spreadsheets
+1 2 3 4 =SUM(CELLYANGDIJUMLAH) , contoh =SUM(A1:B8) =AVERAGE(rentang rata-rata) , contoh =AVERAGE(A1:B8) =MAX(rentang dicari maksimal), contoh =MAX(A1:B8) =MIN(rentang dicari minimal), contoh =MIN(A1:B8) rumus atau formula dasar sum, average 2.]]></description>
 </item>
 </channel>
 </rss>
