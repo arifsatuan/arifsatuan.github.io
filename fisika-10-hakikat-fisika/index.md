@@ -115,6 +115,10 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
  <label>Pertanyaan 2</label>
         <textarea onpaste="return false;" ondrop="return false;" autocomplete="off"  rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Sebutkan satu rumus (selain contoh di atas), apa saja variabelnya, konsep apa yang ada di dalamnya" class="form-input" name="entry.394474086" ></textarea>
 
+ <label>Pertanyaan 3</label>
+        <textarea onpaste="return false;" ondrop="return false;" autocomplete="off"  rows="8" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Narasikan contoh langkah metode ilmiah sederhana (Ada 7 langkah), (ada variabel bebas, terikat dan terkontrolnya). " class="form-input" name="entry.394474086" ></textarea>
+
+
    <button type="submit">Send</button>
 </form>
 {{< /rawhtml >}}
