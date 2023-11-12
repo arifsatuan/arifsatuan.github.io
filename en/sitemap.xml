@@ -69,6 +69,13 @@
   </url>
     
   <url>
+    <loc>http://arifsatuan.github.io/git_clone_succeeded_but_checkout_failed/</loc>
+    <lastmod>2023-10-08T09:06:10+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
     <loc>http://arifsatuan.github.io/categories/</loc>
     <lastmod>2023-07-22T11:22:50+07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -168,6 +175,20 @@
   <url>
     <loc>http://arifsatuan.github.io/copas/</loc>
     <lastmod>2022-11-05T09:11:45+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/categories/fisika/</loc>
+    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    
+  <url>
+    <loc>http://arifsatuan.github.io/fisika-10-hakikat-fisika/</loc>
+    <lastmod>2022-10-21T03:59:47+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
