@@ -56,7 +56,7 @@
     <guid>http://arifsatuan.github.io/gitclone_succeeded_but_checkout_failed/</guid>
     <description><![CDATA[Git is very handy tools for programmers. But, unfortunatelly there are some mistakes or issues when using it. Personally, I can&rsquo;t recall problems that I have facing.
 Today I have problem that I can clone but checkout failed, just shown at picture below Solution for that is very easy. Add command like below
-1 git clone -b main -c core.protectNTFS=false LINK OF GITHUB ]]></description>
+1 git clone -b main -c core.protectNTFS=false LINK OF GITHUB Shown like below: ]]></description>
 </item>
 <item>
     <title>Custom Nama Lengkap PHP dan Javascript</title>
@@ -96,14 +96,6 @@ controler respon (JSON) jquery telah diload &lt;script src=&quot;&quot;&gt; memb
     <author>arif</author>
     <guid>http://arifsatuan.github.io/fisika-10-hakikat-fisika/</guid>
     <description><![CDATA[1. Hakikat Fisika Sains adalah ilmu pengetahuan yang mempelajari gejala alam melalui pengamatan, eksperimen, dan analisis. Sains pada hakikatnya merupakan sebuah kumpulan pengetahuan (“a body of knowledge”), cara atau jalan berpikir (“a way of thinking”), dan cara untuk penyelidikan (“a way of investigating”)”. Istilah lain yang juga digunakan untuk menyatakan hakekat IPA adalah IPA sebagai produk untuk pengganti pernyataan IPA sebagai sebuah kumpulan pengetahuan (“a body of knowledge”), IPA sebagai sikap untuk pengganti pernns, maka ketiga hakikat tersebut juga melekat di dalamnya.]]></description>
-</item>
-<item>
-    <title>Tips Mempercepat Windows</title>
-    <link>http://arifsatuan.github.io/tips-mempercepatan-windows/</link>
-    <pubDate>Sun, 16 Oct 2022 12:28:43 &#43;0700</pubDate>
-    <author>arif</author>
-    <guid>http://arifsatuan.github.io/tips-mempercepatan-windows/</guid>
-    <description><![CDATA[Windows masih menjadi OS (operating sistem) paling banyak digunakan berdasarkan grafik di tahun 2022 berikut Windows Share terbesar Bagi pemilik komputer atau laptop dengan kategori high-end tentu saja windows 10 cukup nyaman untuk digunakan sehari-hari. Lain halnya dengan perangkat yang memiliki processor hemat (daya maupun harga), maupun perangkat yang sudah lama. Keluhan seperti lemot, cepat panas, dan lain-lain tentu saja membuat tidak nyaman. Berikut tips optimasi windows yang bisa dilakukan]]></description>
 </item>
 </channel>
 </rss>
