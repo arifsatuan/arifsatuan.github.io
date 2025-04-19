@@ -63,9 +63,8 @@
     </div>
 
     <div class="border p-3 mb-3 rounded">
-      <h6 class="mb-0">Perbandingan Alat Tersedia</h6>
-      <p class="mt-0 text-primary" style="font-size: 0.8em;">Berdasarkan data (kg) <a href="https://klinikkonstruksi.jogjaprov.go.id/storage/images/peraturan/SNI%207394-2008%20-%20Tata%20Cara%20Perhit%20Harga%20Sat%20Pek%20Beton%20utk%20konstruksi%20BG%20&%20Rmh.pdf">SNI 7394:2008</a></p>
-       
+      <h6 class="mb-0">Form Rasio Alat Tersedia</h6>
+    <p class="mt-0 text-primary" style="font-size: 0.8em;">Berdasarkan data (kg) <a href="https://klinikkonstruksi.jogjaprov.go.id/storage/images/peraturan/SNI%207394-2008%20-%20Tata%20Cara%20Perhit%20Harga%20Sat%20Pek%20Beton%20utk%20konstruksi%20BG%20&%20Rmh.pdf">SNI 7394:2008</a></p>
       <div class="mb-2">
         <label for="takaran" class="form-label">Takaran</label>
         <select id="takaran" class="form-select">
@@ -86,7 +85,7 @@
       </div>
 
       <div class="mb-2">
-        <label class="form-label">Berat 1 ember air (kg)</label>
+        <label class="form-label">Berat 1 ember air (liter = kg)</label>
         <input type="number" id="air" class="form-control" />
       </div>
 
@@ -168,6 +167,28 @@ function getUserDecimalSeparator() {
       document.getElementById("takaranLabel2").textContent = takaran.value;
       localStorage.setItem("takaran", takaran.value);
     });
+    function roundToHalfDown(num) {
+  return Math.floor(num * 2) / 2;
+}
+
+function pembulatanManual(num) {
+  const base = Math.floor(num);
+  const decimal = num - base;
+
+  if (decimal <= 0.3) {
+    return { nilai: base, catatan: "" };
+  } else if (decimal > 0.3 && decimal < 0.5) {
+    return { nilai: base + 0.5, catatan: " (tapi dikurangi)" };
+  } else if (decimal >= 0.5 && decimal <= 0.7) {
+    return { nilai: base + 0.5, catatan: "" };
+  } else if (decimal > 0.7) {
+    return { nilai: base + 1, catatan: " (tapi dikurangi sedikit)" };
+  }
+}
+
+function formatDecimal(num) {
+  return num % 1 === 0 ? num.toFixed(0) : num.toFixed(1);
+}
 
     function hitungTakaran() {
       const mutu = document.getElementById("mutu").value;
@@ -193,16 +214,20 @@ function getUserDecimalSeparator() {
       const takaranPasir = (ratioPasir * perSak * jumlahSak * standar.semen) / pasirKg;
       const takaranKrikil = (ratioKrikil * perSak * jumlahSak * standar.semen) / krikilKg;
       const takaranAir = (ratioAir * perSak * jumlahSak * standar.semen) / airKg;
-
+      const airLiter = (takaranAir*airKg)
+      const bulatPasir = pembulatanManual(takaranPasir);
+      const bulatKrikil = pembulatanManual(takaranKrikil);
+      
       const takaranNama = takaran.value;
       const hasil = document.getElementById("hasil");
 
       hasil.innerHTML = `
         <strong>Maka tiap ${jumlahSak} sak semen:</strong><br>
-        ${takaranPasir.toFixed(1)} ${takaranNama} Pasir<br>
-        ${takaranKrikil.toFixed(1)} ${takaranNama} Krikil<br>
-        ${takaranAir.toFixed(1)} Ember Air<br>
-        ${jumlahSak} Sak Semen
+        ${takaranPasir.toFixed(1)} ${takaranNama} Pasir ~ ${bulatPasir.nilai} ${bulatPasir.catatan}<br>
+        ${takaranKrikil.toFixed(1)} ${takaranNama} Krikil ~${bulatKrikil.nilai} ${bulatKrikil.catatan} <br>
+        ${formatDecimal(takaranAir)} Ember Air ~ ${formatDecimal(parseInt(airLiter.toFixed(1)))} L <sup>*)</sup> <br>
+        ${jumlahSak} Sak Semen <br>
+        <span class="text-danger"style="font-size:0.8em">*) tandai "sisa" Liternya di ember</span>
       `;
       hasil.style.display = "block";
     }
