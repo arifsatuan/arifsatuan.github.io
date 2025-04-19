@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Takaran Beton</title>
+  <title>Takaran Semen</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -75,12 +75,12 @@
       </div>
 
       <div class="mb-2">
-        <label class="form-label">Berat 1 <span id="takaranLabel1">ember</span> Pasir (kg)</label>
+        <label class="form-label">Berat 1 <span style="font-weight: bold;" id="takaranLabel1">ember</span> Pasir (kg)</label>
         <input type="number" id="pasir" class="form-control" />
       </div>
 
       <div class="mb-2">
-        <label class="form-label">Berat 1 <span id="takaranLabel2">ember</span> Krikil (kg)</label>
+        <label class="form-label">Berat 1 <span style="font-weight: bold;" id="takaranLabel2">ember</span> Krikil (kg)</label>
         <input type="number" id="krikil" class="form-control" />
       </div>
 
@@ -107,10 +107,40 @@
       <button onclick="hitungTakaran()" class="btn btn-primary w-100">Hitung</button>
     </div>
 
-    <div id="hasil" class="p-3 border rounded" style="display:none;"></div>
+    <div id="hasil" class="p-3 border rounded mb-5 alert alert-success" style="display:none;"></div>
+
+
+    <div class="border p-3 mb-3 rounded">
+        <h6>Perkiraan Semen</h6>
+        <p>Masukkan volume cor (m³)<br>
+          <span class="text-danger" style="font-size: 0.8em;">Jika hitung dalam cm semua, bagi 1.000.000 agar jadi m³</span>
+        </p>
+      
+        <div class="mb-2">
+          <label for="volume" class="form-label">Volume (m³)</label>
+          <input type="text" id="volume" class="form-control" placeholder="Masukkan volume dalam m³" />
+          <div id="errorVolume" class="text-danger mt-1" style="display: none; font-size: 0.9em;"></div>
+        </div>
+      
+        <div class="mb-2">
+          <label for="perkiraanSemen" class="form-label">Perkiraan Semen (Sak) <span id="kualitas"></span></label>
+          <input type="text" id="perkiraanSemen" class="form-control" disabled />
+        </div>
+      
+        <button onclick="hitungSemenPerUkuran()" class="btn btn-success">Hitung Perkiraan Semen</button>
+      </div>
+      
+
   </div>
 
   <script>
+
+function getUserDecimalSeparator() {
+  const numberWithDecimal = 1.1;
+  const formatted = new Intl.NumberFormat().format(numberWithDecimal);
+  return formatted.includes(",") ? "," : ".";
+}
+
     const dataBeton = {
       K225: { pasir: 698, krikil: 1047, air: 215, semen: 371 },
       K250: { pasir: 692, krikil: 1039, air: 215, semen: 384 },
@@ -175,6 +205,65 @@
       `;
       hasil.style.display = "block";
     }
+
+
+    const userDecimalSeparator = getUserDecimalSeparator();
+
+    document.getElementById("volume").addEventListener("input", function () {
+  hitungSemenPerUkuran();
+});
+function hitungSemenPerUkuran() {
+  const volumeInput = document.getElementById("volume").value.trim();
+  const errorVolume = document.getElementById("errorVolume");
+  const output = document.getElementById("perkiraanSemen");
+  const kualitas = document.getElementById("kualitas");
+
+  errorVolume.style.display = "none";
+  output.value = "";
+
+  // If user types the wrong separator
+  if (userDecimalSeparator === "," && volumeInput.includes(".")) {
+    errorVolume.textContent = "Gunakan koma (,) misal 12,5";
+    errorVolume.style.display = "block";
+    output.value = "Gunakan koma (,) misal 12,5";
+     
+    return;
+  }
+
+  if (userDecimalSeparator === "." && volumeInput.includes(",")) {
+    errorVolume.textContent = "Gunakan titik (.) sebagai koma /contoh 12.5";
+    output.value = "Gunakan titik (.) sebagai koma /contoh 12.5";
+    errorVolume.style.display = "block";
+    return;
+  }
+
+  // Normalize to dot for parseFloat
+  const normalized = volumeInput.replace(",", ".");
+  const volume = parseFloat(normalized);
+
+  if (isNaN(volume) || volume <= 0) {
+    errorVolume.textContent = "Masukkan volume yang valid (misalnya: 0,5)";
+    errorVolume.style.display = "block";
+    return;
+  }
+
+  const mutu = document.getElementById("mutu")?.value || "K225";
+  const sakSemen = parseFloat(document.getElementById("sakSize")?.value || 40);
+  const standar = dataBeton[mutu];
+
+  if (!standar) {
+    kualitas.textContent = "Mutu tidak ditemukan";
+    return;
+  }
+
+  kualitas.textContent = "mutu: " + mutu;
+
+  const kebutuhanSemen = volume * standar.semen;
+  const jumlahSak = (kebutuhanSemen / sakSemen).toFixed(2);
+
+  output.value = `Perkiraan semen ${sakSemen} kg adalah ${jumlahSak} sak`;
+}
+
   </script>
 </body>
 </html>
