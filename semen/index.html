@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Takaran Beton</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+    }
+    .header-img {
+      background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-0bLQtxCjU5NT1zH6wtSeSo4vtNUEdYgJTBbnY32vUWKaT4NI3shI2w62BebT2nCXbgdYODSjXPKAounVRhE2fVFKxrVhmygCRbA3P2FywXAG-QLZIYTOBLBs584Xf9dfz2xXuhmupaXRXaZwpFX7YM8uKCGfOcKiTFQmAZALQ2xsXRvYSE-YRibJ3Ig/s320/2025-03-24004257.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 180px;
+      border-radius: 0 0 10px 10px;
+      position: relative;
+    }
+    .header-text {
+      position: absolute;
+      width: 80%;
+      max-width: 80%;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 10px 20px;
+      border-radius: 8px;
+      z-index: 2;
+    }
+    .header-text h4 {
+      margin: 0;
+      font-weight: bold;
+      color: #333;
+    }
+    .header-text p {
+      margin: 0;
+      font-style: italic;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-img">
+    <div class="header-text">
+      <h4>Kalkulator Takaran Cor</h4>
+      <p>Projek kemandoran - by Arif</p>
+    </div>
+  </div>
+
+  <div class="container py-3">
+    <div class="mb-3">
+      <label for="mutu" class="form-label">Mutu Beton</label>
+      <select id="mutu" class="form-select">
+        <option value="K300" selected>K300</option>
+        <option value="K250">K250</option>
+        <option value="K225">K225</option>
+      </select>
+    </div>
+
+    <div class="border p-3 mb-3 rounded">
+      <h6>Form Alat Tersedia</h6>
+
+      <div class="mb-2">
+        <label for="takaran" class="form-label">Takaran</label>
+        <select id="takaran" class="form-select">
+          <option value="ember">Ember</option>
+          <option value="pengki">Pengki</option>
+          <option value="dulang">Dulang</option>
+        </select>
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Berat 1 <span id="takaranLabel1">ember</span> Pasir (kg)</label>
+        <input type="number" id="pasir" class="form-control" />
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Berat 1 <span id="takaranLabel2">ember</span> Krikil (kg)</label>
+        <input type="number" id="krikil" class="form-control" />
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Berat 1 ember air (kg)</label>
+        <input type="number" id="air" class="form-control" />
+      </div>
+
+      <div class="mb-2">
+        <label class="form-label">Sak Semen</label>
+        <select id="sakSize" class="form-select">
+          <option value="50" selected>50 kg</option>
+          <option value="40">40 kg</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="jumlahSak" class="form-label">Jumlah Sak</label>
+      <input type="number" id="jumlahSak" class="form-control" value="1" />
+    </div>
+
+    <div class="mb-3">
+      <button onclick="hitungTakaran()" class="btn btn-primary w-100">Hitung</button>
+    </div>
+
+    <div id="hasil" class="p-3 border rounded" style="display:none;"></div>
+  </div>
+
+  <script>
+    const dataBeton = {
+      K225: { pasir: 698, krikil: 1047, air: 215, semen: 371 },
+      K250: { pasir: 692, krikil: 1039, air: 215, semen: 384 },
+      K300: { pasir: 681, krikil: 1021, air: 215, semen: 413 },
+    };
+
+    const takaran = document.getElementById("takaran");
+    const inputs = ["mutu", "pasir", "krikil", "air", "sakSize", "jumlahSak", "takaran"];
+
+    // Load from localStorage on init
+    window.addEventListener("DOMContentLoaded", () => {
+      inputs.forEach(id => {
+        const el = document.getElementById(id);
+        if (localStorage.getItem(id)) {
+          el.value = localStorage.getItem(id);
+        }
+      });
+      document.getElementById("takaranLabel1").textContent = takaran.value;
+      document.getElementById("takaranLabel2").textContent = takaran.value;
+    });
+
+    takaran.addEventListener("change", () => {
+      document.getElementById("takaranLabel1").textContent = takaran.value;
+      document.getElementById("takaranLabel2").textContent = takaran.value;
+      localStorage.setItem("takaran", takaran.value);
+    });
+
+    function hitungTakaran() {
+      const mutu = document.getElementById("mutu").value;
+      const pasirKg = parseFloat(document.getElementById("pasir").value);
+      const krikilKg = parseFloat(document.getElementById("krikil").value);
+      const airKg = parseFloat(document.getElementById("air").value);
+      const sakSemen = parseFloat(document.getElementById("sakSize").value);
+      const jumlahSak = parseFloat(document.getElementById("jumlahSak").value);
+
+      // Save all values to localStorage
+      inputs.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) localStorage.setItem(id, el.value);
+      });
+
+      const standar = dataBeton[mutu];
+      const ratioPasir = standar.pasir / standar.semen;
+      const ratioKrikil = standar.krikil / standar.semen;
+      const ratioAir = standar.air / standar.semen;
+
+      const perSak = sakSemen / standar.semen;
+
+      const takaranPasir = (ratioPasir * perSak * jumlahSak * standar.semen) / pasirKg;
+      const takaranKrikil = (ratioKrikil * perSak * jumlahSak * standar.semen) / krikilKg;
+      const takaranAir = (ratioAir * perSak * jumlahSak * standar.semen) / airKg;
+
+      const takaranNama = takaran.value;
+      const hasil = document.getElementById("hasil");
+
+      hasil.innerHTML = `
+        <strong>Maka tiap ${jumlahSak} sak semen:</strong><br>
+        ${takaranPasir.toFixed(1)} ${takaranNama} Pasir<br>
+        ${takaranKrikil.toFixed(1)} ${takaranNama} Krikil<br>
+        ${takaranAir.toFixed(1)} Ember Air<br>
+        ${jumlahSak} Sak Semen
+      `;
+      hasil.style.display = "block";
+    }
+  </script>
+</body>
+</html>
