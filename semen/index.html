@@ -218,14 +218,21 @@ function formatDecimal(num) {
       const bulatPasir = pembulatanManual(takaranPasir);
       const bulatKrikil = pembulatanManual(takaranKrikil);
       
+      const hasilEmber = Math.floor(airLiter / airKg);
+const modair = airLiter % airKg;
+
+
       const takaranNama = takaran.value;
       const hasil = document.getElementById("hasil");
 
       hasil.innerHTML = `
         <strong>Maka tiap ${jumlahSak} sak semen:</strong><br>
-        ${takaranPasir.toFixed(1)} ${takaranNama} Pasir ~ ${bulatPasir.nilai} ${bulatPasir.catatan}<br>
-        ${takaranKrikil.toFixed(1)} ${takaranNama} Krikil ~${bulatKrikil.nilai} ${bulatKrikil.catatan} <br>
-        ${formatDecimal(takaranAir)} Ember Air ~ ${formatDecimal(parseInt(airLiter.toFixed(1)))} L <sup>*)</sup> <br>
+        ${takaranPasir.toFixed(1)} <strong>${takaranNama}</strong> Pasir ~ ${bulatPasir.nilai} ${bulatPasir.catatan}<br>
+        ${takaranKrikil.toFixed(1)} <strong>${takaranNama}</strong> Krikil ~${bulatKrikil.nilai} ${bulatKrikil.catatan} <br>
+      <!-- ${formatDecimal(takaranAir)} Ember Air ~ ${formatDecimal(parseInt(airLiter.toFixed(1)))} L <sup>*)</sup> <br> --> 
+      
+${formatDecimal(takaranAir)} Ember Air ~ ${formatDecimal(parseInt(airLiter.toFixed(1)))}L 
+  [${hasilEmber} ember${modair > 0.1 ? ` + ${formatDecimal(modair)} Liter <span style="font-size:0.7em"><sup>*)</sup></span>` : ''}]<br>
         ${jumlahSak} Sak Semen <br>
         <span class="text-danger"style="font-size:0.8em">*) tandai "sisa" Liternya di ember</span>
       `;
