@@ -39,6 +39,7 @@
   <button type="submit">Calculate & Draw</button>
 </form>
 
+<div class="hasil" id="hasil"></div>
 <div class="result" id="result"></div>
 <svg id="svgDrawing" width="800" height="800" style="border:1px solid #ccc; margin-top:20px;"></svg>
 
@@ -66,7 +67,39 @@ document.getElementById("stairForm").addEventListener("submit", function(e) {
   const horizontalSteps = Math.floor(widthAvailable / stepDepth);
 
   // Total required steps to reach floor
-  const totalStepsRequired = Math.floor(floorHeight / secondStepHeight);
+ // const totalStepsRequired = Math.floor(floorHeight / secondStepHeight);
+ const results = [];
+ let totalStepsRequired = 0;
+
+ if (secondStepHeight < 15 || secondStepHeight > 25) {
+  alert("Diluar 15-25 cm");
+  return;
+}
+for (let h = secondStepHeight - 1; h <= secondStepHeight + 1; h += 0.01) {
+  const steps = floorHeight / h;
+  const nearest = Math.round(steps);
+  const diff = Math.abs(steps - nearest);
+
+  if (diff < 0.012) {
+    results.push({
+      secondStepHeight: h.toFixed(2),
+      steps: steps.toFixed(2),
+      totalStepsRequired: nearest
+    });
+  }
+}
+
+if (results.length > 0) {
+  let suggestionHTML = "<h4>Alternatif Tinggi Anak Tangga</h4><table border='1' cellpadding='5' style='border-collapse:collapse'>";
+  suggestionHTML += "<tr><th>Tinggi Anak Tangga (cm)</th><th>Total Langkah</th></tr>";
+  results.forEach(r => {
+    suggestionHTML += `<tr><td>${r.secondStepHeight}</td><td>${r.totalStepsRequired}</td></tr>`;
+  });
+  suggestionHTML += "</table>";
+
+  document.getElementById("hasil").innerHTML += suggestionHTML;
+}
+console.table(results);
   const stepsAfterSecondBordes = totalStepsRequired - horizontalSteps- steps1 - 2;
 // Build Result Table
 let resultHTML = `
