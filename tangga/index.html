@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>U-Stair Calculator with Flow</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { margin: 5px; padding: 5px; width: 80px; }
+    .result { margin-top: 20px; }
+    table, th, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>U-Stair Calculator with Flow</h2>
+
+<form id="stairForm">
+  <fieldset>
+    <legend>Jarak Void ke tembok pertama</legend>
+    <label>Void ke Tembok (cm): <input type="number" id="startHeight" value="290"></label><br>
+    <label>Lebar tangga (cm): <input type="number" id="bordesHeight" value="80"></label><br>
+    <label>Step (kedalaman) (cm): <input type="number" id="stepHeight" value="30"></label><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Ukuran Ruangan</legend>
+    <label>Lebar ruangan (cm): <input type="number" id="totalWidth" value="280"></label><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Lantai ke lantai</legend>
+    <label>Tinggi Lantai (cm): <input type="number" id="floorHeight" value="400"></label><br>
+    <label>Tinggi trap (cm): <input type="number" id="secondStepHeight" value="17"></label><br>
+  </fieldset>
+
+  <button type="submit">Calculate & Draw</button>
+</form>
+
+<div class="result" id="result"></div>
+<svg id="svgDrawing" width="800" height="800" style="border:1px solid #ccc; margin-top:20px;"></svg>
+
+<script>
+document.getElementById("stairForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  // Inputs
+  const startHeight = parseFloat(document.getElementById("startHeight").value);
+  const bordesHeight = parseFloat(document.getElementById("bordesHeight").value);
+  const stepHeight = parseFloat(document.getElementById("stepHeight").value);
+  const totalWidth = parseFloat(document.getElementById("totalWidth").value);
+  const floorHeight = parseFloat(document.getElementById("floorHeight").value);
+  const secondStepHeight = parseFloat(document.getElementById("secondStepHeight").value);
+
+  // Constants
+  const stepWidth = 80; // orange step depth
+  const stepDepth = stepHeight;
+  const bordesSize = 80;
+ 
+  const stairHeight1 = startHeight - bordesHeight;
+  const steps1 = Math.floor(stairHeight1 / stepHeight);
+
+  const widthAvailable = totalWidth - 2 * bordesSize;
+  const horizontalSteps = Math.floor(widthAvailable / stepDepth);
+
+  // Total required steps to reach floor
+  const totalStepsRequired = Math.floor(floorHeight / secondStepHeight);
+  const stepsAfterSecondBordes = totalStepsRequired - horizontalSteps- steps1 - 2;
+// Build Result Table
+let resultHTML = `
+  <h3>Hasil Perhitungan</h3>
+  <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;">
+    <tr><td><b>Bagian 1</b></td><td>: ${steps1} steps × ${stepHeight} cm = ${stairHeight1} cm</td></tr>
+    <tr><td><b>Bagian 2</b></td><td>: ${horizontalSteps} steps × ${stepHeight} cm</td></tr>
+    <tr><td><b>Bagian 3</b></td><td>: ${stepsAfterSecondBordes} steps × ${secondStepHeight} cm</td></tr>
+    <tr><td><b>Total Tangga</b></td><td>: ${totalStepsRequired} steps</td></tr>
+  </table>
+`;
+
+  if ((widthAvailable / stepDepth) % 1 !== 0) {
+    const idealSteps = Math.round(widthAvailable / stepDepth);
+    const suggestion = idealSteps * stepDepth + 2 * bordesSize;
+    resultHTML += `<p style="color:red">⚠️ Not ideal width. Suggest using <b>${suggestion} cm</b> width for ${idealSteps} horizontal steps.</p>`;
+  }
+
+  resultHTML += `<h4>Recommendations</h4><table><tr><th>Total Width</th><th>Horizontal Steps</th></tr>`;
+  for (let i = 1; i <= 5; i++) {
+    resultHTML += `<tr><td>${(i * stepDepth + 2 * bordesSize)} cm</td><td>${i}</td></tr>`;
+  }
+  resultHTML += `</table>`;
+
+  document.getElementById("result").innerHTML = resultHTML;
+// SVG Drawing
+const svg = document.getElementById("svgDrawing");
+svg.innerHTML = "";
+
+const originX = 400;
+const originY = 200;
+const scale = 1;
+
+svg.innerHTML += `<text x="${originX - 40}" y="${originY + 20}" font-size="16">Start →</text>`;
+
+// First vertical steps
+for (let i = 0; i < steps1; i++) {
+  const y = originY + i * stepDepth;
+  svg.innerHTML += `<rect x="${originX}" y="${y}" width="${stepWidth}" height="${stepDepth}" fill="orange" stroke="black"/>`;
+  svg.innerHTML += `<text x="${originX + stepWidth / 2}" y="${y + stepDepth / 1.5}" font-size="14" text-anchor="middle" fill="black">${i + 1}</text>`;
+}
+
+let currentY = originY + steps1 * stepDepth;
+
+// First Bordes
+svg.innerHTML += `<rect x="${originX}" y="${currentY}" width="${bordesSize}" height="${bordesSize}" fill="steelblue" stroke="black"/>`;
+svg.innerHTML += `<text x="${originX + bordesSize / 2}" y="${currentY + bordesSize / 1.5}" font-size="14" text-anchor="middle">${steps1+1}</text>`;
+
+// Top U-turn horizontal steps
+for (let i = 0; i < horizontalSteps; i++) {
+  const x = stepDepth + 20 + originX - bordesSize - i * stepDepth;
+  svg.innerHTML += `<rect x="${x}" y="${currentY}" width="${stepDepth}" height="${stepWidth}" fill="orange" stroke="black"/>`;
+  svg.innerHTML += `<text x="${x + stepDepth / 2}" y="${currentY + stepWidth / 2}" font-size="14" text-anchor="middle" fill="black">${steps1 + i + 2}</text>`;
+}
+
+// Second Bordes
+const secondBordesX = originX - bordesSize - horizontalSteps * stepDepth;
+svg.innerHTML += `<rect x="${secondBordesX}" y="${currentY}" width="${bordesSize}" height="${bordesSize}" fill="steelblue" stroke="black"/>`;
+const startDownStepIndex = steps1 + horizontalSteps + 1;
+svg.innerHTML += `<text x="${secondBordesX + bordesSize / 2}" y="${currentY + bordesSize / 1.5}" font-size="14" text-anchor="middle">${startDownStepIndex+1}</text>`;
+
+
+
+// Remaining steps after second bordes
+for (let i = 0; i < stepsAfterSecondBordes; i++) {
+  const y = currentY - (i + 1) * stepDepth;
+  svg.innerHTML += `<rect x="${secondBordesX}" y="${y}" width="${stepWidth}" height="${stepDepth}" fill="orange" stroke="black"/>`;
+  svg.innerHTML += `<text x="${secondBordesX + stepWidth / 2}" y="${y + stepDepth / 1.5}" font-size="14" text-anchor="middle" fill="black">${startDownStepIndex + i+2}</text>`;
+}
+
+// Void annotation
+svg.innerHTML += `<line x1="${originX + stepWidth + 30}" y1="${originY}" x2="${originX + stepWidth + 30}" y2="${originY + stairHeight1}" stroke="blue" marker-end="url(#arrow)" stroke-width="2"/>`;
+svg.innerHTML += `<text x="${originX + stepWidth + 35}" y="${originY + stairHeight1 / 2}" font-size="14" fill="blue">Void ke tangga (${startHeight} cm)</text>`;
+
+// Stair width annotation
+svg.innerHTML += `<line x1="${originX - bordesSize - horizontalSteps * stepDepth}" y1="${currentY + bordesSize + 10}" x2="${originX + bordesSize}" y2="${currentY + bordesSize + 10}" stroke="purple" stroke-width="2"/>`;
+svg.innerHTML += `<text x="${originX - bordesSize - horizontalSteps * stepDepth + totalWidth / 2 - 30}" y="${currentY + bordesSize + 30}" font-size="14" fill="purple">Total Width = ${totalWidth} cm</text>`;
+
+// Final Arrow Down
+svg.innerHTML += `<line x1="${secondBordesX + bordesSize + stepDepth / 2}" y1="${currentY + stepsAfterSecondBordes * stepWidth}" x2="${secondBordesX + bordesSize + stepDepth / 2}" y2="${currentY + stepsAfterSecondBordes * stepWidth + 40}" stroke="black" marker-end="url(#arrow)" stroke-width="2"/>`;
+svg.innerHTML += `<text x="${secondBordesX + bordesSize + 10}" y="${currentY + stepsAfterSecondBordes * stepWidth + 20}" font-size="16">To Floor</text>`;
+
+// Add arrow marker
+svg.innerHTML += `
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+  </defs>
+`;
+
+});
+</script>
+
+</body>
+</html>
